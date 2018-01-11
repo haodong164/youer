@@ -1,0 +1,2626 @@
+[ 2017-06-19T08:26:51+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.thinkphp5.com/ [运行时间：1.106793s][吞吐率：0.90req/s] [内存消耗：1,954.97kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.thinkphp5.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T08:26:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ log ] www.thinkphp5.com/admin/login/login.html [运行时间：0.122583s][吞吐率：8.16req/s] [内存消耗：1,705.15kb] [文件加载：46]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.thinkphp5.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ekjpcamacvuc6gtu40gpvdjlp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ C:\phpstuby\WWW\thinkphp\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpstuby\WWW\thinkphp\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T08:27:54+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.home.com/ [运行时间：0.047547s][吞吐率：21.03req/s] [内存消耗：1,954.98kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.home.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T08:27:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ log ] www.home.com/admin/login/login.html [运行时间：0.035841s][吞吐率：27.90req/s] [内存消耗：1,705.14kb] [文件加载：46]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.home.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=q6cl8ek84fg5jlrqhg2cb10ir0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ C:\phpstuby\WWW\thinkphp\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpstuby\WWW\thinkphp\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T08:28:07+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/do_login.html
+[ log ] www.home.com/admin/login/do_login.html [运行时间：0.595544s][吞吐率：1.68req/s] [内存消耗：2,518.07kb] [文件加载：55]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.home.com',
+  'connection' => 'keep-alive',
+  'content-length' => '49',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://www.home.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://www.home.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=q6cl8ek84fg5jlrqhg2cb10ir0',
+)
+[ info ] [ PARAM ] array (
+  'truename' => '产品汪',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ C:\phpstuby\WWW\thinkphp\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstuby\WWW\thinkphp\thinkphp\tpl\dispatch_jump1.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031338s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.147882s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  truename="产品汪" ) LIMIT 1 [ RunTime:0.001391s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003886s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.030746s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  truename="产品汪" ) LIMIT 1 [ RunTime:0.000591s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T08:28:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ log ] www.home.com/admin/login/login.html [运行时间：0.042792s][吞吐率：23.37req/s] [内存消耗：1,705.14kb] [文件加载：46]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.home.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=q6cl8ek84fg5jlrqhg2cb10ir0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ C:\phpstuby\WWW\thinkphp\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpstuby\WWW\thinkphp\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T17:35:23+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：6.088917s][吞吐率：0.16req/s] [内存消耗：2,296.24kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '30',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password1' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T17:35:23+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：6.951183s][吞吐率：0.14req/s] [内存消耗：2,296.24kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '30',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password1' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T17:35:29+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.058813s][吞吐率：17.00req/s] [内存消耗：2,296.27kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '30',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password1' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T17:36:17+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.078429s][吞吐率：12.75req/s] [内存消耗：2,296.27kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '30',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password1' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:14:29+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.861558s][吞吐率：1.16req/s] [内存消耗：2,296.27kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '30',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password1' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:14:43+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.079094s][吞吐率：12.64req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '123',
+  'password1' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:14:45+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.047329s][吞吐率：21.13req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '123',
+  'password1' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:14:47+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.045748s][吞吐率：21.86req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '123',
+  'password1' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:14:51+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.062355s][吞吐率：16.04req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '123',
+  'password1' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:14:58+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.061444s][吞吐率：16.27req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '123',
+  'password1' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:15:00+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.044846s][吞吐率：22.30req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '123',
+  'password1' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:15:28+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.044482s][吞吐率：22.48req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '123',
+  'password1' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:20:24+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.856713s][吞吐率：1.17req/s] [内存消耗：2,347.55kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.487460s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.256080s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('q' , '1' , '1') [ RunTime:0.044752s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:20:46+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.061190s][吞吐率：16.34req/s] [内存消耗：2,347.56kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '34',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q1',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004265s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009080s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('q1' , '1' , '1') [ RunTime:0.000600s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:21:03+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.045773s][吞吐率：21.85req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:21:17+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.060164s][吞吐率：16.62req/s] [内存消耗：2,347.59kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '35',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q11',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004047s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008496s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('q11' , '1' , '1') [ RunTime:0.000658s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:23:41+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.049360s][吞吐率：20.26req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '34',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'pg',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:23:48+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.071631s][吞吐率：13.96req/s] [内存消耗：2,347.55kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '1',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012762s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008906s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('1' , '1' , '1') [ RunTime:0.000551s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:24:00+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.121414s][吞吐率：8.24req/s] [内存消耗：2,347.62kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '38',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '难受',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007334s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.063496s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('难受' , '1' , '1') [ RunTime:0.000596s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:24:07+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.107409s][吞吐率：9.31req/s] [内存消耗：2,347.55kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'o',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004405s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.055766s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('o' , '1' , '1') [ RunTime:0.000754s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:24:08+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.065372s][吞吐率：15.30req/s] [内存消耗：2,347.55kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'o',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003821s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.012101s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('o' , '1' , '1') [ RunTime:0.000737s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:24:11+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.064703s][吞吐率：15.46req/s] [内存消耗：2,347.55kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'l',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003711s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009512s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('l' , '1' , '1') [ RunTime:0.000542s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:24:19+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.129822s][吞吐率：7.70req/s] [内存消耗：2,347.55kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'k',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004287s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.070468s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('k' , '1' , '1') [ RunTime:0.000620s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:24:19+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.133445s][吞吐率：7.49req/s] [内存消耗：2,347.55kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'k',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005261s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.070788s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('k' , '1' , '1') [ RunTime:0.000551s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:26:47+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/app
+[ log ] 192.168.98.134/index.php/test/Index/app [运行时间：0.075637s][吞吐率：13.22req/s] [内存消耗：2,352.05kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '26',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '难受',
+  'password' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003913s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010920s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='难受' and password='1' ) LIMIT 1 [ RunTime:0.000774s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:27:24+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.048501s][吞吐率：20.62req/s] [内存消耗：2,296.22kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '40',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'pppppppp',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:27:40+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.081288s][吞吐率：12.30req/s] [内存消耗：2,347.56kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '34',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wp',
+  'password' => '1',
+  'password1' => '1',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004076s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.018734s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('wp' , '1' , '1') [ RunTime:0.003383s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:31:36+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.048108s][吞吐率：20.79req/s] [内存消耗：2,296.24kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '39',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ppp',
+  'password' => '123',
+  'password1' => '126',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:31:40+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.048234s][吞吐率：20.73req/s] [内存消耗：2,296.24kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '39',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ppp',
+  'password' => '123',
+  'password1' => '126',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:31:51+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.060035s][吞吐率：16.66req/s] [内存消耗：2,347.52kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '39',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ppp',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005363s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008216s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('ppp' , '111' , '111') [ RunTime:0.000571s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:32:04+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.043855s][吞吐率：22.80req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:32:08+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.046362s][吞吐率：21.57req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:32:13+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.064148s][吞吐率：15.59req/s] [内存消耗：2,347.52kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '38',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'pp',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004125s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010556s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('pp' , '111' , '111') [ RunTime:0.000542s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:32:22+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.045295s][吞吐率：22.08req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:32:30+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.046670s][吞吐率：21.43req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:32:31+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.054402s][吞吐率：18.38req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:32:57+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.072373s][吞吐率：13.82req/s] [内存消耗：2,347.56kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '40',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '单p',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004104s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.018366s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('单p' , '111' , '111') [ RunTime:0.000472s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:33:11+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.045491s][吞吐率：21.98req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:33:26+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.079854s][吞吐率：12.52req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'a',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013711s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.014401s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('a' , '111' , '111') [ RunTime:0.000545s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:33:33+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.064263s][吞吐率：15.56req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'b',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005627s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010412s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('b' , '111' , '111') [ RunTime:0.000499s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:33:33+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.063197s][吞吐率：15.82req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'b',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003778s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009230s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('b' , '111' , '111') [ RunTime:0.000510s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:33:39+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.075899s][吞吐率：13.18req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'c',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003817s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.019023s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('c' , '111' , '111') [ RunTime:0.000586s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:33:44+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.085648s][吞吐率：11.68req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'd',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003947s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009964s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('d' , '111' , '111') [ RunTime:0.000835s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:33:50+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.144390s][吞吐率：6.93req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'e',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004542s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.071660s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('e' , '111' , '111') [ RunTime:0.000753s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:33:54+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.063163s][吞吐率：15.83req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'f',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004342s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009010s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('f' , '111' , '111') [ RunTime:0.000417s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:33:59+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.118434s][吞吐率：8.44req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'g',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003960s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.066339s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('g' , '111' , '111') [ RunTime:0.000911s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:34:02+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.064581s][吞吐率：15.48req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'h',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005581s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.011648s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('h' , '111' , '111') [ RunTime:0.000692s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:34:06+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.071288s][吞吐率：14.03req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'i',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013429s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010196s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('i' , '111' , '111') [ RunTime:0.000569s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:34:12+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.105328s][吞吐率：9.49req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'j',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005176s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.052101s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('j' , '111' , '111') [ RunTime:0.000729s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:34:16+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.073833s][吞吐率：13.54req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'k',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003962s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.015819s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('k' , '111' , '111') [ RunTime:0.000408s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:34:20+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.061022s][吞吐率：16.39req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'l',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003868s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009310s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('l' , '111' , '111') [ RunTime:0.000522s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:34:29+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.074892s][吞吐率：13.35req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'm',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004046s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.018894s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('m' , '111' , '111') [ RunTime:0.000557s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:34:32+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.062395s][吞吐率：16.03req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'n',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005216s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008981s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('n' , '111' , '111') [ RunTime:0.000538s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:34:35+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.063018s][吞吐率：15.87req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'o',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004051s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008895s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('o' , '111' , '111') [ RunTime:0.000610s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:34:39+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.048081s][吞吐率：20.80req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'p',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:34:47+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.059923s][吞吐率：16.69req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003842s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009153s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('q' , '111' , '111') [ RunTime:0.000580s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:01+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.049092s][吞吐率：20.37req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'r',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:07+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.048312s][吞吐率：20.70req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'r',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:14+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.063166s][吞吐率：15.83req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 's',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004930s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009544s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('s' , '111' , '111') [ RunTime:0.000452s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:14+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.067368s][吞吐率：14.84req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 's',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004993s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009802s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('s' , '111' , '111') [ RunTime:0.000448s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:24+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.056418s][吞吐率：17.72req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 't',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:24+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.057484s][吞吐率：17.40req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 't',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:25+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.050409s][吞吐率：19.84req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 't',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:27+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.092701s][吞吐率：10.79req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 't',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:31+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.053326s][吞吐率：18.75req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 't',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:37+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.069105s][吞吐率：14.47req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'u',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006387s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.011562s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('u' , '111' , '111') [ RunTime:0.000636s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:41+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.080257s][吞吐率：12.46req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'u',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006910s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.019698s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('u' , '111' , '111') [ RunTime:0.000690s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:45+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.045854s][吞吐率：21.81req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'v',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:35:52+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.122911s][吞吐率：8.14req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'w',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004145s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.057403s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('w' , '111' , '111') [ RunTime:0.000568s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:36:00+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.046341s][吞吐率：21.58req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'x',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:36:07+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.062317s][吞吐率：16.05req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'y',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003976s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009804s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('y' , '111' , '111') [ RunTime:0.000531s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:36:08+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.061653s][吞吐率：16.22req/s] [内存消耗：2,347.57kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'y',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003862s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009248s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('y' , '111' , '111') [ RunTime:0.000549s ]
+
+---------------------------------------------------------------
+[ 2017-06-19T19:36:13+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.053473s][吞吐率：18.70req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'x',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:36:19+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.048488s][吞吐率：20.62req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'z',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:36:19+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.053593s][吞吐率：18.66req/s] [内存消耗：2,296.28kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '37',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'z',
+  'password' => '111',
+  'password1' => '111',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-19T19:39:42+08:00 ] 192.168.98.134 192.168.98.134 POST /index.php/test/Index/zhuce
+[ log ] 192.168.98.134/index.php/test/Index/zhuce [运行时间：0.068000s][吞吐率：14.71req/s] [内存消耗：2,347.52kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'zhuce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '39',
+  'host' => '192.168.98.134',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123',
+  'password' => '123',
+  'password1' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->zhuce[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004931s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010360s ]
+[ sql ] [ SQL ] INSERT INTO `auth_user` (`username` , `password` , `password1`) VALUES ('123' , '123' , '123') [ RunTime:0.000608s ]
+
+---------------------------------------------------------------

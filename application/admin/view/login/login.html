@@ -1,0 +1,40 @@
+﻿
+<!doctype html>
+<html>
+
+{include file="Public/head"}
+
+<body data-type="login">
+
+<div class="am-g myapp-login">
+    <div class="myapp-login-logo-block  tpl-login-max">
+        <div class="myapp-login-logo-text">
+            <div class="myapp-login-logo-text">
+                大智<span> Login</span> <i class="am-icon-skyatlas"></i>
+
+            </div>
+        </div>
+
+        <div class="login-font">
+            <i>后台管理平台登录 </i>
+        </div>
+        <div class="am-u-sm-10 login-am-center">
+            <form class="am-form" action="{:url('Login/do_login')}" method="post">
+                <fieldset>
+                    <div class="am-form-group">
+                        <input type="text" class="" name="truename" id="doc-ipt-email-1" placeholder="输入用户名">
+                    </div>
+                    <div class="am-form-group">
+                        <input type="password" class="" name="password" id="doc-ipt-pwd-1" placeholder="输入密码">
+                    </div>
+                    <p><button type="submit" class="am-btn am-btn-default">登录</button></p>
+                    <p><a href="{:url('Login/want_register')}" class="am-btn am-btn-default">立即注册</a></p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+{include file="Public/foot"}
+</body>
+
+</html>

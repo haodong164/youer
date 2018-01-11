@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<form action="{:url('Index/do_auth_guanli')}" method="post" >
+    <input type="hidden" name="groupid" value="{$group}"/>
+{volist id="vo" name="rulelist"}
+<div>
+
+    <input type="checkbox" name="rule[]"  data-id="1" class="first_level first_level_{$vo.id}  first_{$vo.id}" value="{$vo.id}" />{$vo.title}
+    <div style="padding-left: 40px">
+        {volist id="sec" name="vo.second"}
+        <input type="checkbox" name="rule[]"  data-pid="{$vo.id}" data-id="{$sec.id}" value="{$sec.id}"  class="second_level second_level_{$vo.id} second_{$sec.id} "/>{$sec.title}
+        <div  style="padding-left: 40px">
+            {volist id="third" name="sec.third"}
+            <input type="checkbox" name="rule[]"   value="{$third.id}"  data-ppid="{$vo.id}" data-pid="{$sec.id}" class="third_level third_level_{$vo.id} second_level_{$sec.id}" data-ppid="1"/>{$third.title}
+            {/volist}
+        </div>
+        {/volist}
+    </div>
+
+</div>
+{/volist}
+    <input type="submit" value="保存">
+</form>
+
+
+<body>
+{include file="public/js"}
+<script type="text/javascript">
+    $('.first_level').click(function(){
+        var id=$(this).attr('data-id');
+        if($(this).is(':checked'))
+        {
+            $('.second_level_'+id).prop('checked',true);
+            $('.third_level_'+id).prop('checked',true);
+        }else{
+            $('.second_level_'+id).prop('checked',false);
+            $('.third_level_'+id).prop('checked',false);
+        }
+    });
+    $('.second_level').click(function(){
+        var id=$(this).attr('data-id');
+        var pid=$(this).attr('data-pid');
+        $('.first_level_'+pid).prop('checked',true);
+        if($(this).is(':checked'))
+        {
+            $('.second_level_'+id).prop('checked',true);
+        }else
+        {
+            $('.second_level_'+id).prop('checked',false);
+        }
+
+    });
+    $('.third_level').click(function()
+    {
+        var pid=$(this).attr('data-pid');
+        var ppid=$(this).attr('data-ppid');
+        $('.second_'+pid).prop('checked',true);
+        $('.first_'+ppid).prop('checked',true);
+//        if($(this).is(':checked')){
+//            $('.first_'+ppid).prop('checked',true);
+//        }else{
+//            $('.second_'+pid).prop('checked',false);
+//        }
+
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+    {include file="public/css"}
+</head>
+
+<body>
+
+
+
+
+
+<div class="tpl-portlet-components">
+    <div class="portlet-title">
+        <div class="caption font-green bold">
+            用户组添加
+        </div>
+        <div class="tpl-portlet-input tpl-fz-ml">
+            <div class="portlet-input input-small input-inline">
+                <div class="input-icon right">
+                    <i class="am-icon-search"></i>
+                    <input type="text" class="form-control form-control-solid" placeholder="搜索..."> </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="tpl-block ">
+
+        <div class="am-g tpl-amazeui-form">
+
+
+            <div class="am-u-sm-12 am-u-md-9">
+                <form method="post" action="{:url('Index/do_uppermissions')}" class="am-form am-form-horizontal">
+                    <div class="am-form-group">
+                        <label for="user_en_name"  class="am-u-sm-3 am-form-label">英文名称 / GroupName</label>
+                        <div class="am-u-sm-9">
+                            <input type="hidden" value="{$info.id}" name="id">
+                            <input type="text"  name="name" id="user_en_name" value="{$info.name}" placeholder="姓名 / Name">
+                            <small id="weiyi">输入用户组名称</small>
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="user_zw_name" class="am-u-sm-3 am-form-label">中文名称 / GroupName</label>
+                        <div class="am-u-sm-9">
+                            <input type="text"  name="title" id="user_zw_name" value="{$info.title}" placeholder="姓名 / Name">
+                            <small id="zw">输入用户组名称</small>
+                        </div>
+                    </div>
+
+                    <div class="am-form-group">
+                        <label  class="am-u-sm-3 am-form-label">状态 / Status</label>
+                        <div class="am-u-sm-9">
+                            <input type="radio"   {if condition="$info.status eq 1"} checked="checked"{/if} value="1" name="status"><small>启用</small>
+                            <input type="radio" {if condition="$info.status eq 0"} checked="checked"{/if}  value="0"  name="status"><small>禁用</small>
+
+                        </div>
+                    </div>
+
+
+                    <div class="am-form-group">
+                        <label  class="am-u-sm-3 am-form-label">级别</label>
+                        <div class="am-u-sm-9">
+                            <input type="radio" name="level" checked="checked" value="1"><small>模板</small>
+                            <input type="radio" name="level" value="2"><small>控制器</small>
+                            <input type="radio" name="level" value="3"><small>操作方法</small>
+                        </div>
+                    </div>
+
+
+                    <div class="am-form-group">
+                        <label  class="am-u-sm-3 am-form-label">上一级</label>
+                        <div class="am-u-sm-9">
+                            <select name="parentid">
+                                {volist id="vo" name="rulelist"}
+                                <option value="{$vo.id}">{$vo.title} </option>
+                                {volist id="sec" name="vo.second"}
+                                <option value="{$sec.id}">------{$sec.title} </option>
+                                {/volist}
+                                {/volist}
+
+                            </select>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="am-form-group">
+                        <div class="am-u-sm-9 am-u-sm-push-3">
+                            <button type="submit" href="{:url('Index/do_uppermissions')}" class="am-btn am-btn-primary">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+{include file="public/js"}
+
+
+
+
+</body>
+
+</html>

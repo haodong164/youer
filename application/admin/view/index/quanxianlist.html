@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{:url('Index/do_quanxian')}" method="post">
+<input value="{$groupid}" name="groupid" type="hidden" >
+    {volist id="vo" name="rulelist"}
+    <div>
+        <input type="checkbox" name="rules[]" class="first_level first_level_{$vo.id} first_{$vo.id}" data-id="1" value="{$vo.id}" />{$vo.title}
+
+        <div style="padding-left:40px;">
+            {volist id="sec" name="vo.second"}
+            <input type="checkbox" name="rules[]" data-id="{$sec.id}" data-pid="{$vo.id}" class="second_level second_level_{$vo.id} second_{$sec.id}" value="{$sec.id}" />{$sec.title}
+
+            <div style="padding-left:40px;">
+                {volist id="third" name="sec.third"}
+                <input type="checkbox" data-ppid="{$vo.id}" data-pid="{$sec.id}" name="rules[]" class="third_level third_level_{$vo.id} second_level_{$sec.id}" value="{$third.id}" />{$third.title}
+                {/volist}
+            </div>
+
+            {/volist}
+
+        </div>
+    </div>
+    {/volist}
+
+    <input type="submit" value="保存"  />
+</form>
+
+
+{include file="Public/foot"}
+<!--<script type="text/javascript" src="js/jquery.min.js"></script>-->
+<script type="text/javascript">
+    $('.first_level').click(function(){
+        var id=$(this).attr('data-id');
+        if($(this).is(':checked'))
+        {
+            $('.second_level_'+id).prop('checked',true);
+            $('.third_level_'+id).prop('checked',true);
+        }else{
+            $('.second_level_'+id).prop('checked',false);
+            $('.third_level_'+id).prop('checked',false);
+        }
+    });
+    $('.second_level').click(function(){
+        var id=$(this).attr('data-id');
+        var pid=$(this).attr('data-pid');
+        $('.first_level_'+pid).prop('checked',true);
+        if($(this).is(':checked'))
+        {
+            $('.second_level_'+id).prop('checked',true);
+        }else{
+            $('.second_level_'+id).prop('checked',false);
+        }
+    });
+    $('.third_level').click(function(){
+        var pid=$(this).attr('data-pid');
+        var ppid=$(this).attr('data-ppid');
+        $('.second_'+pid).prop('checked',true);
+        $('.first_'+ppid).prop('checked',true);
+    });
+</script>
+</body>
+</html>

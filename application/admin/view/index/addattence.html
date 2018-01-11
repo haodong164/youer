@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+    {include file="Public/head"}
+</head>
+
+<body data-type="generalComponents">
+        <div class="tpl-portlet-components">
+            <div class="portlet-title">
+                <div class="caption font-green bold">
+                    <span class="am-icon-code"></span> 表单
+                </div>
+                <div class="tpl-portlet-input tpl-fz-ml">
+                    <div class="portlet-input input-small input-inline">
+                        <div class="input-icon right">
+                            <i class="am-icon-search"></i>
+                            <input type="text" class="form-control form-control-solid" placeholder="搜索..."> </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="tpl-block ">
+
+                <div class="am-g tpl-amazeui-form">
+
+
+                    <div class="am-u-sm-12 am-u-md-9">
+                        <form action="{:url('Index/do_addattence')}" method="post" class="am-form am-form-horizontal">
+                            <div class="am-form-group">
+                                <label for="user-name" class="am-u-sm-3 am-form-label">教师Id / id</label>
+                                <div class="am-u-sm-9">
+                                   
+                                     <select name="tid" id="tid">
+                                            <option>请选择老师姓名</option>
+                                           {foreach item="tname" name="tname"}
+                                           <option value={$tname.id} >{$tname.truename}</option>
+                                           {/foreach}
+                                          </select>
+                            <small>输入这孩子老师的姓名</small>
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-email" class="am-u-sm-3 am-form-label">学生Id / id</label>
+                                <div class="am-u-sm-9">
+                                    
+
+                                        <select name="sid" id="tid">
+                                         <option>请选择学生姓名</option>
+                                           {foreach item="list" name="list"}
+                                           <option value={$list.id} >{$list.sname}</option>
+                                           {/foreach}
+                                       </select>
+                                         <small>输入学生的姓名</small>
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-email" class="am-u-sm-3 am-form-label">未出勤的原因</label>
+                                <div class="am-u-sm-9">
+                                    <input type="text" name="intro" id="user-text" placeholder="未出勤的原因">
+                                    <small></small>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                            <div class="am-form-group">
+                                <div class="am-u-sm-9 am-u-sm-push-3">
+                                    <button type="submit" class="am-btn am-btn-primary">保存</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+{include file="Public/foot"}
+</body>
+
+</html>

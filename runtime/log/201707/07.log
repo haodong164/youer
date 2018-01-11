@@ -1,0 +1,510 @@
+[ 2017-07-07T09:00:10+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.192966s][吞吐率：5.18req/s] [内存消耗：2,355.41kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004247s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.062299s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000663s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:00:11+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.146759s][吞吐率：6.81req/s] [内存消耗：2,355.56kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031862s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.062581s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000697s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:00:13+08:00 ] 192.168.98.130 192.168.98.130 GET /index.php
+[ log ] 192.168.98.130/index.php [运行时间：0.301555s][吞吐率：3.32req/s] [内存消耗：1,953.31kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.98.130',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-07T09:00:30+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.691603s][吞吐率：1.45req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004822s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.512556s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.120382s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:00:39+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.065143s][吞吐率：15.35req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004195s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015685s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000712s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:00:42+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.149957s][吞吐率：6.67req/s] [内存消耗：2,354.98kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'content-length' => '9',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004337s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015251s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 4,4 [ RunTime:0.076752s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:01:04+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.074521s][吞吐率：13.42req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004158s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015548s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000729s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:05:19+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.079780s][吞吐率：12.53req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012723s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.016024s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000929s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:06:22+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.102622s][吞吐率：9.74req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006829s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.027361s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000771s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:07:23+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.073066s][吞吐率：13.69req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004547s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.018575s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000732s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:07:38+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.091945s][吞吐率：10.88req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004200s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.041729s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000734s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:07:58+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.068889s][吞吐率：14.52req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003755s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015674s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000696s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T09:08:01+08:00 ] 192.168.98.130 192.168.98.163 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.079902s][吞吐率：12.52req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003680s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.021283s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000620s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T11:26:49+08:00 ] 192.168.98.130 192.168.98.181 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：2.157918s][吞吐率：0.46req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.536924s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.324101s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.035626s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T15:36:07+08:00 ] 192.168.98.130 192.168.98.181 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：1.693136s][吞吐率：0.59req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.304151s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.330786s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.013653s ]
+
+---------------------------------------------------------------
+[ 2017-07-07T15:40:22+08:00 ] 192.168.98.130 192.168.98.181 POST /index.php/test/Index/dongtai
+[ log ] 192.168.98.130/index.php/test/Index/dongtai [运行时间：0.078394s][吞吐率：12.76req/s] [内存消耗：2,355.34kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'dongtai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '10',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'crrage=1',
+)
+[ info ] [ RUN ] app\test\controller\Index->dongtai[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006307s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015597s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000702s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+
+{include file="Public/headcc"}
+<body>
+
+
+
+        <div class="tpl-content-wrapper1">
+            
+            <div class="tpl-portlet-components">
+                <div class="portlet-title">
+                    <div class="caption font-green bold">
+                         用户组添加
+                    </div>
+                    <div class="tpl-portlet-input tpl-fz-ml">
+                        <div class="portlet-input input-small input-inline">
+                            <div class="input-icon right">
+                                <i class="am-icon-search"></i>
+                                <input type="text" class="form-control form-control-solid" placeholder="搜索..."> </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="tpl-block ">
+
+                    <div class="am-g tpl-amazeui-form">
+
+
+                        <div class="am-u-sm-12 am-u-md-9">
+                            <form class="am-form am-form-horizontal" action="{:url('Index/do_addgrouplist')}" method="post">
+                                <div class="am-form-group">
+                                    <label for="user_zh_name"  class="am-u-sm-3 am-form-label">职位 / ZhiWei</label>
+                                    <div class="am-u-sm-9">
+                                        <input type="text" name="title" id="user_zh_name" placeholder="姓名 / Name">
+                                        <small id="zhjs">输入用户中文名称</small>
+                                    </div>
+
+
+                                <div class="am-form-group">
+                                    <label for="user-email" class="am-u-sm-3 am-form-label">状态 / Status</label>
+                                    <div class="am-u-sm-9">
+                                        <input type="radio" name="status" checked="checked" value="1"><small>启用</small>
+                                        <input type="radio" name="status" value="0"><small>禁用</small>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <div class="am-u-sm-9 am-u-sm-push-3">
+                                        <button type="submit" class="am-btn am-btn-primary">添加</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+{include file="Public/foot"}
+
+<script type="text/javascript">
+    $('#user_zh_name').blur(function(){
+        var Zhname=$(this).val();
+        if(Zhname=='')
+        {
+            $('#zhjs').html('名称不可为空');
+            $('#zhjs').css('color','red');
+            return fales;
+        }
+       // alert (Zhname);
+        $.ajax({
+            url:"{:url('Index/jianchazhname')}",//到达的地址
+            type:'post',
+            data:{names:Zhname},
+            success:function (data){
+                //alert(data.zhuangtai);
+                $('#zhjs').html(data.mags);
+                if(data.zhuangtai)
+                {
+                    $('#zhjs').css('color','red');
+                }
+                else
+                    {
+                        $('#zhjs').css('color','green');
+                    }
+        }
+
+        });
+    });
+
+    $('#user_qx_name').blur(function(){
+        var qxname=$(this).val();
+        if(qxname=='')
+        {
+            $('#qxjs').html('名称不可为空');
+            $('#qxjs').css('color','red');
+            return fales;
+        }
+        // alert (Zhname);
+        $.ajax({
+            url:"{:url('Index/jianchaqxname')}",//到达的地址
+            type:'post',
+            data:{names:qxname},
+            success:function (data){
+                //alert(data.zhuangtai);
+                $('#qxjs').html(data.mags);
+                if(data.zhuangtai)
+                {
+                    $('#qxjs').css('color','red');
+                }
+                else
+                {
+                    $('#qxjs').css('color','green');
+                }
+            }
+
+        });
+    });
+    </script>
+
+
+
+</body>
+
+</html>

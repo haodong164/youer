@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title></title>
+	</head>
+		<div>
+			<input type="checkbox" name="first"  data-id="1" class="first_level first_level_1  first_1" value="1" />第一级
+			<div style="padding-left: 40px">
+				<input type="checkbox" name="first"  data-pid="1" data-id="3" value="first_level"  class="second_level second_level_1 second_3 "/>第二级
+				<div  style="padding-left: 40px">
+					<input type="checkbox" name="first"  value="first_level" data-pid="3" class="third_level third_level_1 second_level_3" data-ppid="1"/>第三级
+					<input type="checkbox" name="first"  value="first_level" data-pid="3" class="third_level third_level_1 second_level_3" data-ppid="1"/>第三级
+					<input type="checkbox" name="first"  value="first_level" data-pid="3" class="third_level third_level_1 second_level_3" data-ppid="1"/>第三级
+				</div>
+				
+				<input type="checkbox" name="first"  data-pid="1" data-id="4" value="2" class="second_level second_level_1 second_4"/>第二级
+				<div  style="padding-left: 40px">
+					<input type="checkbox" name="first"  value="first_level" data-pid="4" class="third_level third_level_1 second_level_4"  data-ppid="1"/>第三级
+					<input type="checkbox" name="first"  value="first_level" data-pid="4" class="third_level third_level_1 second_level_4" data-ppid="1"/>第三级
+					<input type="checkbox" name="first" value="first_level"  data-pid="4" class="third_level third_level_1 second_level_4" data-ppid="1"/>第三级
+				</div>
+			</div>
+		</div>
+		
+		
+		
+			<div>
+			<input type="checkbox"  name="first" class="first_level first_level_2  first_2" data-id="2" value="1" />第一级
+			<div style="padding-left: 40px">
+				<input type="checkbox" name="first"  value="first_level" class="second_level second_level_2 second_5" data-id="5" data-pid="2" />第二级
+				<div  style="padding-left: 40px">
+					<input type="checkbox" name="first"  value="first_level" data-pid="5" class="third_level third_level_2 second_level_5" data-ppid="2" />第三级
+					<input type="checkbox" name="first"  value="first_level" data-pid="5" class="third_level third_level_2 second_level_5" data-ppid="2" />第三级
+					<input type="checkbox" name="first"  value="first_level" data-pid="5"  class="third_level third_level_2 second_level_5" data-ppid="2"  />第三级
+				</div>
+				
+				<input type="checkbox" name="first"  value="2" class="second_level second_level_2 second_6 " data-id="6"   data-pid="2"/>第二级
+				<div  style="padding-left: 40px">
+					<input type="checkbox" name="first"  value="first_level" data-pid="6" class="third_level third_level_2 second_level_6" data-ppid="2" />第三级
+					<input type="checkbox" name="first"  value="first_level" data-pid="6" class="third_level third_level_2 second_level_6" data-ppid="2"  />第三级
+					<input type="checkbox" name="first"  value="first_level" data-pid="6" class="third_level third_level_2 second_level_6" data-ppid="2" />第三级
+				</div>
+			</div>
+		</div>
+	<body>
+		<script type="text/javascript" src="jquery.min.js" ></script>
+		<script type="text/javascript">
+			$('.first_level').click(function(){
+				var id=$(this).attr('data-id');
+				if($(this).is(':checked'))
+				{
+					$('.second_level_'+id).prop('checked',true);
+					$('.third_level_'+id).prop('checked',true);
+				}else{
+				$('.second_level_'+id).prop('checked',false);
+					$('.third_level_'+id).prop('checked',false);
+				}
+			});
+			$('.second_level').click(function(){
+				var id=$(this).attr('data-id');
+				var pid=$(this).attr('data-pid');
+				$('.first_level_'+pid).prop('checked',true);
+				if($(this).is(':checked'))
+					{
+						$('.second_level_'+id).prop('checked',true);
+					}else
+					{
+						$('.second_level_'+id).prop('checked',false);
+					}
+				
+			});
+			$('.third_level').click(function()
+			{
+				var pid=$(this).attr('data-pid');
+				var ppid=$(this).attr('data-ppid');
+				$('.second_'+pid).prop('checked',true);
+				if($(this).is(':checked')){
+					$('.first_'+ppid).prop('checked',true);
+				}else{
+					$('.second_'+pid).prop('checked',false);
+				}
+				
+			});
+		</script>
+	</body>
+</html>

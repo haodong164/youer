@@ -1,0 +1,3024 @@
+[ 2017-08-05T18:28:10+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.054232s][吞吐率：18.44req/s] [内存消耗：3,471.73kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005423s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003525s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,8 [ RunTime:0.004980s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:28:10+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.080544s][吞吐率：12.42req/s] [内存消耗：3,435.74kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005991s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003975s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 8,8 [ RunTime:0.002729s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:28:10+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.052250s][吞吐率：19.14req/s] [内存消耗：3,435.74kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005903s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003719s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 8,8 [ RunTime:0.002395s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:28:12+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.067240s][吞吐率：14.87req/s] [内存消耗：3,451.47kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '32',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005990s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003535s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='32' ) LIMIT 1 [ RunTime:0.002727s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003667s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003007s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002613s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:28:17+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.061319s][吞吐率：16.31req/s] [内存消耗：3,451.43kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '14',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005362s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003221s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='14' ) LIMIT 1 [ RunTime:0.002509s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003541s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002999s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002371s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:28:55+08:00 ] 60.205.45.246 112.224.2.179 GET /
+[ log ] www.ryaonet.cn/ [运行时间：0.034016s][吞吐率：29.40req/s] [内存消耗：2,723.74kb] [文件加载：48]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501805609',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T18:28:55+08:00 ] 60.205.45.246 112.224.2.179 GET /admin/login/login.html
+[ log ] www.ryaonet.cn/admin/login/login.html [运行时间：0.032997s][吞吐率：30.31req/s] [内存消耗：2,273.61kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501805609; PHPSESSID=4k4s00fbfiq448b0vmh3hrdst3',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T18:29:01+08:00 ] 60.205.45.246 112.224.2.179 POST /admin/login/do_login.html
+[ log ] www.ryaonet.cn/admin/login/do_login.html [运行时间：0.059008s][吞吐率：16.95req/s] [内存消耗：3,205.14kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '27',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501805609; PHPSESSID=4k4s00fbfiq448b0vmh3hrdst3',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+  'truename' => 'admin',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/thinkphp/tpl/dispatch_jump1.tpl [ array (
+  0 => 'truename',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005948s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003216s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  truename="admin" ) LIMIT 1 [ RunTime:0.002702s ]
+[ sql ] [ SQL ] SELECT `lastLoginTime` FROM `teacher` WHERE  (  id="13" ) LIMIT 1 [ RunTime:0.002688s ]
+[ sql ] [ SQL ] UPDATE `teacher`  SET `lastLoginTime`='1501928941'  WHERE  `id` = 13 [ RunTime:0.002714s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:29:05+08:00 ] 60.205.45.246 112.224.2.179 GET /admin/index/index.html
+[ log ] www.ryaonet.cn/admin/index/index.html [运行时间：0.146115s][吞吐率：6.84req/s] [内存消耗：3,838.20kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501923029; PHPSESSID=4k4s00fbfiq448b0vmh3hrdst3',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'tid',
+  1 => 'truename',
+  2 => 'lastLoginTime',
+  3 => 'zong',
+  4 => 'jrgx',
+  5 => 'funlandz',
+  6 => 'funlandg',
+  7 => 'recordz',
+  8 => 'recordg',
+  9 => 'newsz',
+  10 => 'newsg',
+  11 => 'noticez',
+  12 => 'noticeg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006320s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003508s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  id=13 ) LIMIT 1 [ RunTime:0.002807s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003577s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003015s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1 [ RunTime:0.002521s ]
+[ sql ] [ SQL ] SELECT `pudate` FROM `comment` [ RunTime:0.002412s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `pudate` <= 1501928945 [ RunTime:0.002531s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003820s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `funland` [ RunTime:0.003129s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `funland` LIMIT 1 [ RunTime:0.002621s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `funland` [ RunTime:0.002610s ]
+[ sql ] [ SQL ] SELECT * FROM `funland` WHERE  `pubdate` <= 1501928945 [ RunTime:0.002844s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004425s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record` [ RunTime:0.003571s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `record` LIMIT 1 [ RunTime:0.002914s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `record` [ RunTime:0.002931s ]
+[ sql ] [ SQL ] SELECT * FROM `record` WHERE  `pubdate` <= 1501928945 [ RunTime:0.003091s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004310s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003443s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1 [ RunTime:0.002923s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `news` [ RunTime:0.002932s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  `pubdate` <= 1501928945 [ RunTime:0.006338s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003864s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.003249s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `notice` LIMIT 1 [ RunTime:0.002582s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `notice` [ RunTime:0.002665s ]
+[ sql ] [ SQL ] SELECT * FROM `notice` WHERE  `pubdate` <= 1501928945 [ RunTime:0.005789s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:29:14+08:00 ] 60.205.45.246 112.224.2.179 GET /admin/index/themelist.html
+[ log ] www.ryaonet.cn/admin/index/themelist.html [运行时间：0.093032s][吞吐率：10.75req/s] [内存消耗：3,779.79kb] [文件加载：60]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'themelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501923029; PHPSESSID=4k4s00fbfiq448b0vmh3hrdst3',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->themelist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005518s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003193s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1 [ RunTime:0.002555s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc LIMIT 0,3 [ RunTime:0.002648s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004318s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003301s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.001458s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1[/data/home/bxu2713310775/htdocs/thinkphp/library/think/db/Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:29:28+08:00 ] 60.205.45.246 112.224.2.179 GET /admin/index/noticelist.html
+[ log ] www.ryaonet.cn/admin/index/noticelist.html [运行时间：0.060519s][吞吐率：16.52req/s] [内存消耗：3,845.92kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'noticelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501923029; PHPSESSID=4k4s00fbfiq448b0vmh3hrdst3',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->noticelist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/noticelist.html [ array (
+  0 => 'rulelist',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005448s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.002967s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `notice` LIMIT 1 [ RunTime:0.002251s ]
+[ sql ] [ SQL ] SELECT * FROM `notice` ORDER BY id desc LIMIT 0,3 [ RunTime:0.003870s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:29:28+08:00 ] 60.205.45.246 112.224.2.179 GET /public/static//js/app.js
+[ log ] www.ryaonet.cn/public/static//js/app.js [运行时间：0.025278s][吞吐率：39.56req/s] [内存消耗：1,846.93kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'app.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501923029; PHPSESSID=4k4s00fbfiq448b0vmh3hrdst3',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/noticelist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T18:29:28+08:00 ] 60.205.45.246 112.224.2.179 GET /public/static//js/amazeui.min.js
+[ log ] www.ryaonet.cn/public/static//js/amazeui.min.js [运行时间：0.027093s][吞吐率：36.91req/s] [内存消耗：1,847.02kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'amazeui.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501923029; PHPSESSID=4k4s00fbfiq448b0vmh3hrdst3',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/noticelist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T18:29:28+08:00 ] 60.205.45.246 112.224.2.179 GET /public/static//js/amazeui.min.js
+[ log ] www.ryaonet.cn/public/static//js/amazeui.min.js [运行时间：0.025250s][吞吐率：39.60req/s] [内存消耗：1,847.02kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'amazeui.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501923029; PHPSESSID=4k4s00fbfiq448b0vmh3hrdst3',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/noticelist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T18:29:29+08:00 ] 60.205.45.246 112.224.2.179 GET /public/static//js/app.js
+[ log ] www.ryaonet.cn/public/static//js/app.js [运行时间：0.025134s][吞吐率：39.79req/s] [内存消耗：1,846.93kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'app.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501923029; PHPSESSID=4k4s00fbfiq448b0vmh3hrdst3',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/noticelist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T18:29:52+08:00 ] 60.205.45.246 112.224.2.179 GET /admin/index/telephonelist.html
+[ log ] www.ryaonet.cn/admin/index/telephonelist.html [运行时间：0.086355s][吞吐率：11.58req/s] [内存消耗：3,771.25kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'telephonelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'cookie' => 'lastLoginTime=1501923029; PHPSESSID=4k4s00fbfiq448b0vmh3hrdst3',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->telephonelist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/telephonelist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005328s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `telephone` [ RunTime:0.003093s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `telephone` LIMIT 1 [ RunTime:0.002363s ]
+[ sql ] [ SQL ] SELECT * FROM `telephone` ORDER BY id desc LIMIT 0,3 [ RunTime:0.002471s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:32:08+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/nav
+[ log ] www.ryaonet.cn/index.php/api/Api/nav [运行时间：0.064355s][吞吐率：15.54req/s] [内存消耗：3,432.90kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'nav',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '16',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '111',
+)
+[ info ] [ RUN ] app\api\controller\Api->nav[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006328s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003567s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.003002s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003564s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002836s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002489s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:32:10+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/xinwen
+[ log ] www.ryaonet.cn/index.php/api/Api/xinwen [运行时间：0.140724s][吞吐率：7.11req/s] [内存消耗：3,476.06kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'xinwen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '33',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '111',
+  'identity' => '教师',
+)
+[ info ] [ RUN ] app\api\controller\Api->xinwen[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005987s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003422s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc [ RunTime:0.002801s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004066s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003319s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002787s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002867s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005350s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.003326s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='43' ) [ RunTime:0.002755s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004142s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003247s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002707s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004236s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_dianzan` [ RunTime:0.003392s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='43' and tid='1' ) LIMIT 1 [ RunTime:0.002683s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002717s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002690s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='42' ) [ RunTime:0.002684s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='42' and tid='1' ) LIMIT 1 [ RunTime:0.002794s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002746s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002688s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) [ RunTime:0.002658s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002774s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='38' and tid='1' ) LIMIT 1 [ RunTime:0.002718s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002669s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002845s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) [ RunTime:0.002751s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='11' and tid='1' ) LIMIT 1 [ RunTime:0.002725s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:32:12+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/hudongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/hudongnei [运行时间：0.111754s][吞吐率：8.95req/s] [内存消耗：3,458.54kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'hudongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '42',
+)
+[ info ] [ RUN ] app\api\controller\Api->hudongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006007s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003598s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  (  id='42' ) LIMIT 1 [ RunTime:0.002705s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004405s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003417s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002707s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003436s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.002740s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='42' ) ORDER BY id desc [ RunTime:0.002421s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002640s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002704s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003467s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002876s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002847s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id='1' ) LIMIT 1 [ RunTime:0.002360s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002270s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id='1' ) LIMIT 1 [ RunTime:0.002509s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002385s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id='1' ) LIMIT 1 [ RunTime:0.002206s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002679s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002641s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:32:36+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.060208s][吞吐率：16.61req/s] [内存消耗：3,451.47kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '32',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005225s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.002972s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='32' ) LIMIT 1 [ RunTime:0.002302s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003880s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002895s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002493s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:33:11+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/xinwen
+[ log ] www.ryaonet.cn/index.php/api/Api/xinwen [运行时间：0.139574s][吞吐率：7.16req/s] [内存消耗：3,476.06kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'xinwen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '33',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '111',
+  'identity' => '教师',
+)
+[ info ] [ RUN ] app\api\controller\Api->xinwen[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005989s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003051s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc [ RunTime:0.002434s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003876s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003107s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002588s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002579s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004890s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.003105s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='43' ) [ RunTime:0.002675s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004551s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003255s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002708s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004048s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_dianzan` [ RunTime:0.002817s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='43' and tid='1' ) LIMIT 1 [ RunTime:0.002368s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002652s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002736s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='42' ) [ RunTime:0.002675s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='42' and tid='1' ) LIMIT 1 [ RunTime:0.002371s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002608s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002670s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) [ RunTime:0.002779s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002696s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='38' and tid='1' ) LIMIT 1 [ RunTime:0.002427s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002601s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002691s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) [ RunTime:0.002739s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='11' and tid='1' ) LIMIT 1 [ RunTime:0.002385s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:33:14+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/hudongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/hudongnei [运行时间：0.082526s][吞吐率：12.12req/s] [内存消耗：3,456.48kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'hudongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '38',
+)
+[ info ] [ RUN ] app\api\controller\Api->hudongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005356s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002883s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  (  id='38' ) LIMIT 1 [ RunTime:0.002395s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003544s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002944s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id='1' ) LIMIT 1 [ RunTime:0.002380s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003518s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.002783s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) ORDER BY id desc [ RunTime:0.002510s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003409s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.002805s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002268s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002253s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:33:20+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/xinwen
+[ log ] www.ryaonet.cn/index.php/api/Api/xinwen [运行时间：0.130844s][吞吐率：7.64req/s] [内存消耗：3,476.06kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'xinwen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '33',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '111',
+  'identity' => '教师',
+)
+[ info ] [ RUN ] app\api\controller\Api->xinwen[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005185s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003117s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc [ RunTime:0.002336s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003587s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.002773s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002347s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002335s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003532s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.002814s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='43' ) [ RunTime:0.002317s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004019s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003121s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002985s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004017s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_dianzan` [ RunTime:0.003383s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='43' and tid='1' ) LIMIT 1 [ RunTime:0.002664s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002418s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002358s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='42' ) [ RunTime:0.003011s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='42' and tid='1' ) LIMIT 1 [ RunTime:0.002676s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002860s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002723s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) [ RunTime:0.002313s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002905s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='38' and tid='1' ) LIMIT 1 [ RunTime:0.002731s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002414s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002382s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) [ RunTime:0.002328s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001612s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='11' and tid='1' ) LIMIT 1 [ RunTime:0.002812s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:33:23+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/hudongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/hudongnei [运行时间：0.085236s][吞吐率：11.73req/s] [内存消耗：3,456.48kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'hudongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '38',
+)
+[ info ] [ RUN ] app\api\controller\Api->hudongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005637s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.004765s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  (  id='38' ) LIMIT 1 [ RunTime:0.002619s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003681s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002843s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id='1' ) LIMIT 1 [ RunTime:0.002341s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003426s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.002751s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) ORDER BY id desc [ RunTime:0.002246s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004322s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003650s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002818s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002804s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:33:27+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/xinwen
+[ log ] www.ryaonet.cn/index.php/api/Api/xinwen [运行时间：0.134600s][吞吐率：7.43req/s] [内存消耗：3,476.06kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'xinwen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '33',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '111',
+  'identity' => '教师',
+)
+[ info ] [ RUN ] app\api\controller\Api->xinwen[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005788s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003333s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc [ RunTime:0.002634s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004003s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003127s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002616s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002673s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004048s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.003154s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='43' ) [ RunTime:0.002685s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003872s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003058s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002652s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003938s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_dianzan` [ RunTime:0.002960s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='43' and tid='1' ) LIMIT 1 [ RunTime:0.002597s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002680s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002735s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='42' ) [ RunTime:0.002716s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='42' and tid='1' ) LIMIT 1 [ RunTime:0.002630s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002576s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002587s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) [ RunTime:0.002659s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002635s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='38' and tid='1' ) LIMIT 1 [ RunTime:0.002628s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002758s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002691s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) [ RunTime:0.002701s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='11' and tid='1' ) LIMIT 1 [ RunTime:0.002653s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:33:48+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/hudongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/hudongnei [运行时间：0.106916s][吞吐率：9.35req/s] [内存消耗：3,458.54kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'hudongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '42',
+)
+[ info ] [ RUN ] app\api\controller\Api->hudongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005613s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003234s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  (  id='42' ) LIMIT 1 [ RunTime:0.002595s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004093s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003094s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002658s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003641s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.002885s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='42' ) ORDER BY id desc [ RunTime:0.002512s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002635s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002647s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003586s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002830s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002343s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id='1' ) LIMIT 1 [ RunTime:0.002353s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002409s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id='1' ) LIMIT 1 [ RunTime:0.002385s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002370s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id='1' ) LIMIT 1 [ RunTime:0.002364s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002669s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002650s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:33:51+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/xinwen
+[ log ] www.ryaonet.cn/index.php/api/Api/xinwen [运行时间：0.128168s][吞吐率：7.80req/s] [内存消耗：3,476.06kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'xinwen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '33',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '111',
+  'identity' => '教师',
+)
+[ info ] [ RUN ] app\api\controller\Api->xinwen[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005246s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003073s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc [ RunTime:0.002387s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003837s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.002884s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002572s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002433s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003452s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.002972s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='43' ) [ RunTime:0.002306s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003865s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003052s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002563s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003603s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_dianzan` [ RunTime:0.002791s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='43' and tid='1' ) LIMIT 1 [ RunTime:0.002358s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002487s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002492s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='42' ) [ RunTime:0.002432s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='42' and tid='1' ) LIMIT 1 [ RunTime:0.002385s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002671s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002677s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) [ RunTime:0.002430s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002646s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='38' and tid='1' ) LIMIT 1 [ RunTime:0.002491s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002494s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002376s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) [ RunTime:0.002449s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='11' and tid='1' ) LIMIT 1 [ RunTime:0.002459s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:34:09+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/hudongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/hudongnei [运行时间：0.134351s][吞吐率：7.44req/s] [内存消耗：3,460.88kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'hudongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '11',
+)
+[ info ] [ RUN ] app\api\controller\Api->hudongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005602s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003426s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  (  id='11' ) LIMIT 1 [ RunTime:0.002761s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003953s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003204s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002301s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003550s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.002954s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) ORDER BY id desc [ RunTime:0.002508s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002718s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002405s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002234s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002239s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002308s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002633s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002349s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002591s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004254s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003392s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002631s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id='1' ) LIMIT 1 [ RunTime:0.002673s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002706s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id='1' ) LIMIT 1 [ RunTime:0.004099s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002450s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002356s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002431s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002281s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002300s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002338s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002262s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002265s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:35:11+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/xinwen
+[ log ] www.ryaonet.cn/index.php/api/Api/xinwen [运行时间：0.138996s][吞吐率：7.19req/s] [内存消耗：3,475.47kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'xinwen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '33',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '123',
+  'identity' => '家长',
+)
+[ info ] [ RUN ] app\api\controller\Api->xinwen[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006660s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003247s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc [ RunTime:0.002549s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003510s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.002809s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002280s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002566s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004441s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.003330s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='43' ) [ RunTime:0.002706s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002337s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003808s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_dianzan` [ RunTime:0.002820s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='43' and fid='22' ) LIMIT 1 [ RunTime:0.002475s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002313s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.004152s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='42' ) [ RunTime:0.002744s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002393s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='42' and fid='22' ) LIMIT 1 [ RunTime:0.002673s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003980s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002878s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002245s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002309s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) [ RunTime:0.002644s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.001152s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='38' and fid='22' ) LIMIT 1 [ RunTime:0.002447s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002562s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002368s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) [ RunTime:0.003228s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002561s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='11' and fid='22' ) LIMIT 1 [ RunTime:0.003140s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:35:31+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/nav
+[ log ] www.ryaonet.cn/index.php/api/Api/nav [运行时间：0.083908s][吞吐率：11.92req/s] [内存消耗：3,451.27kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'nav',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '16',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Api->nav[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005554s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003053s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002807s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003613s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `family` INNER JOIN `student` `student` ON `family`.`id`=`student`.`fid` WHERE  (  family.id=22 ) LIMIT 1 [ RunTime:0.002759s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003658s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003433s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002356s ]
+[ sql ] [ SQL ] SELECT `telphone` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002972s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003894s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `class` [ RunTime:0.002968s ]
+[ sql ] [ SQL ] SELECT `class_name` FROM `class` WHERE  (  id=4 ) LIMIT 1 [ RunTime:0.002548s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:35:33+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/xinwen
+[ log ] www.ryaonet.cn/index.php/api/Api/xinwen [运行时间：0.135601s][吞吐率：7.37req/s] [内存消耗：3,475.47kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'xinwen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '33',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '123',
+  'identity' => '家长',
+)
+[ info ] [ RUN ] app\api\controller\Api->xinwen[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005603s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002945s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc [ RunTime:0.002312s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003972s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003106s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002596s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002576s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004054s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.003301s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='43' ) [ RunTime:0.002693s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002789s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003454s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_dianzan` [ RunTime:0.002795s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='43' and fid='22' ) LIMIT 1 [ RunTime:0.002246s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002578s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002601s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='42' ) [ RunTime:0.002704s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002746s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='42' and fid='22' ) LIMIT 1 [ RunTime:0.002879s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003952s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003184s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002564s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002550s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) [ RunTime:0.002693s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='38' and fid='22' ) LIMIT 1 [ RunTime:0.002262s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002603s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002631s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) [ RunTime:0.003649s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002670s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='11' and fid='22' ) LIMIT 1 [ RunTime:0.002277s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:35:36+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/hudongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/hudongnei [运行时间：0.071875s][吞吐率：13.91req/s] [内存消耗：3,446.23kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'hudongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '43',
+)
+[ info ] [ RUN ] app\api\controller\Api->hudongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006061s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003068s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  (  id='43' ) LIMIT 1 [ RunTime:0.002502s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003644s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.002834s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id='22' ) LIMIT 1 [ RunTime:0.002436s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003565s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.002879s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='43' ) ORDER BY id desc [ RunTime:0.002468s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:35:40+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/xinwen
+[ log ] www.ryaonet.cn/index.php/api/Api/xinwen [运行时间：0.138463s][吞吐率：7.22req/s] [内存消耗：3,475.47kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'xinwen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '33',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '123',
+  'identity' => '家长',
+)
+[ info ] [ RUN ] app\api\controller\Api->xinwen[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006018s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.004094s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc [ RunTime:0.002735s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004658s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003566s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002547s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002543s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003830s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.002969s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='43' ) [ RunTime:0.002545s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002646s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004002s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_dianzan` [ RunTime:0.003083s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='43' and fid='22' ) LIMIT 1 [ RunTime:0.002672s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002533s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002613s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='42' ) [ RunTime:0.002563s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002588s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='42' and fid='22' ) LIMIT 1 [ RunTime:0.002785s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003795s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002819s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002240s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002341s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) [ RunTime:0.002565s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='38' and fid='22' ) LIMIT 1 [ RunTime:0.002638s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002580s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002581s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) [ RunTime:0.002556s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002624s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='11' and fid='22' ) LIMIT 1 [ RunTime:0.002678s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:37:27+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/nav
+[ log ] www.ryaonet.cn/index.php/api/Api/nav [运行时间：0.078996s][吞吐率：12.66req/s] [内存消耗：3,451.27kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'nav',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '16',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Api->nav[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005848s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003233s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002935s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003569s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `family` INNER JOIN `student` `student` ON `family`.`id`=`student`.`fid` WHERE  (  family.id=22 ) LIMIT 1 [ RunTime:0.002501s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003589s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002809s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002315s ]
+[ sql ] [ SQL ] SELECT `telphone` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002399s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003570s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `class` [ RunTime:0.002660s ]
+[ sql ] [ SQL ] SELECT `class_name` FROM `class` WHERE  (  id=4 ) LIMIT 1 [ RunTime:0.002236s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:38:23+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/xinwen
+[ log ] www.ryaonet.cn/index.php/api/Api/xinwen [运行时间：0.107901s][吞吐率：9.27req/s] [内存消耗：3,473.15kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'xinwen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '33',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '123',
+  'identity' => '家长',
+)
+[ info ] [ RUN ] app\api\controller\Api->xinwen[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005508s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003111s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc [ RunTime:0.002566s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003971s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003460s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002641s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002608s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003553s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.002899s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) [ RunTime:0.002370s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003988s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003020s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.003348s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003590s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_dianzan` [ RunTime:0.002765s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='38' and fid='22' ) LIMIT 1 [ RunTime:0.002361s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002580s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002520s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) [ RunTime:0.002349s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002637s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='11' and fid='22' ) LIMIT 1 [ RunTime:0.002492s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:44:24+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/xinwen
+[ log ] www.ryaonet.cn/index.php/api/Api/xinwen [运行时间：0.107625s][吞吐率：9.29req/s] [内存消耗：3,473.68kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'xinwen',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '33',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'tel' => '111',
+  'identity' => '教师',
+)
+[ info ] [ RUN ] app\api\controller\Api->xinwen[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005392s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003674s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc [ RunTime:0.002388s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003565s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003004s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002375s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002886s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004025s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comments` [ RunTime:0.003139s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='38' ) [ RunTime:0.002697s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002394s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004027s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment_dianzan` [ RunTime:0.003203s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='38' and tid='1' ) LIMIT 1 [ RunTime:0.002658s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003585s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003059s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002388s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002353s ]
+[ sql ] [ SQL ] SELECT * FROM `comments` WHERE  (  cid='11' ) [ RunTime:0.002652s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT * FROM `comment_dianzan` WHERE  (  cid='11' and tid='1' ) LIMIT 1 [ RunTime:0.002701s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:44:27+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/nav
+[ log ] www.ryaonet.cn/index.php/api/Api/nav [运行时间：0.060226s][吞吐率：16.60req/s] [内存消耗：3,432.90kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'nav',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '16',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '111',
+)
+[ info ] [ RUN ] app\api\controller\Api->nav[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005110s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.002940s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002252s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003858s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003074s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  telphone='111' ) LIMIT 1 [ RunTime:0.002617s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:44:30+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.055441s][吞吐率：18.04req/s] [内存消耗：3,471.41kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005444s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003024s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,8 [ RunTime:0.005175s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:44:30+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.051315s][吞吐率：19.49req/s] [内存消耗：3,435.38kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005210s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 8,8 [ RunTime:0.002381s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:44:32+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.062566s][吞吐率：15.98req/s] [内存消耗：3,451.39kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '32',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005823s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003137s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='32' ) LIMIT 1 [ RunTime:0.002470s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003968s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003250s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002638s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:45:23+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.060546s][吞吐率：16.52req/s] [内存消耗：3,451.34kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '14',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005464s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.002960s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='14' ) LIMIT 1 [ RunTime:0.002398s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003471s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002987s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002268s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:45:29+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.063333s][吞吐率：15.79req/s] [内存消耗：3,451.39kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '10',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005811s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003373s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='10' ) LIMIT 1 [ RunTime:0.002969s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004171s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003162s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=3 ) LIMIT 1 [ RunTime:0.002883s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:47:14+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/nav
+[ log ] www.ryaonet.cn/index.php/api/Api/nav [运行时间：0.080871s][吞吐率：12.37req/s] [内存消耗：3,451.27kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'nav',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '16',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Api->nav[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005587s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003088s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002462s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003628s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `family` INNER JOIN `student` `student` ON `family`.`id`=`student`.`fid` WHERE  (  family.id=22 ) LIMIT 1 [ RunTime:0.002514s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003894s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003743s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002539s ]
+[ sql ] [ SQL ] SELECT `telphone` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002573s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003634s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `class` [ RunTime:0.002726s ]
+[ sql ] [ SQL ] SELECT `class_name` FROM `class` WHERE  (  id=4 ) LIMIT 1 [ RunTime:0.002275s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:47:16+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.056541s][吞吐率：17.69req/s] [内存消耗：3,471.80kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005301s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003912s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,8 [ RunTime:0.004865s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:47:17+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.055248s][吞吐率：18.10req/s] [内存消耗：3,435.74kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007076s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003103s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 8,8 [ RunTime:0.002641s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:47:19+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.061481s][吞吐率：16.27req/s] [内存消耗：3,451.43kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '14',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006061s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003319s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='14' ) LIMIT 1 [ RunTime:0.002735s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003594s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002874s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002262s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:48:00+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.055381s][吞吐率：18.06req/s] [内存消耗：3,471.80kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005578s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003133s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,8 [ RunTime:0.005035s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:48:00+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.052894s][吞吐率：18.91req/s] [内存消耗：3,435.74kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005737s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003307s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 8,8 [ RunTime:0.002863s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:48:00+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.052441s][吞吐率：19.07req/s] [内存消耗：3,435.74kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005675s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003251s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 8,8 [ RunTime:0.002671s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:48:01+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.066293s][吞吐率：15.08req/s] [内存消耗：3,451.43kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '14',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007021s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003356s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='14' ) LIMIT 1 [ RunTime:0.002741s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004560s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003185s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002639s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:50:03+08:00 ] 60.205.45.246 223.104.188.176 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.062229s][吞吐率：16.07req/s] [内存消耗：3,451.34kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '14',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005521s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003051s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='14' ) LIMIT 1 [ RunTime:0.002464s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003846s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002995s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002567s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:52:26+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/nav
+[ log ] www.ryaonet.cn/index.php/api/Api/nav [运行时间：0.080902s][吞吐率：12.36req/s] [内存消耗：3,451.27kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'nav',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '16',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Api->nav[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005426s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003197s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002355s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003969s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `family` INNER JOIN `student` `student` ON `family`.`id`=`student`.`fid` WHERE  (  family.id=22 ) LIMIT 1 [ RunTime:0.002723s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003534s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002832s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002348s ]
+[ sql ] [ SQL ] SELECT `telphone` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.003541s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003466s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `class` [ RunTime:0.002667s ]
+[ sql ] [ SQL ] SELECT `class_name` FROM `class` WHERE  (  id=4 ) LIMIT 1 [ RunTime:0.002441s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:53:04+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.053834s][吞吐率：18.58req/s] [内存消耗：3,471.80kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005309s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003088s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,8 [ RunTime:0.004797s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:53:04+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongzhi
+[ log ] www.ryaonet.cn/index.php/api/Api/tongzhi [运行时间：0.051364s][吞吐率：19.47req/s] [内存消耗：3,435.74kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongzhi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '9',
+  'content-type' => 'application/x-www-form-urlencoded; charset=utf-8',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'currage' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongzhi[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005683s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003290s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 8,8 [ RunTime:0.002759s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:53:06+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.066039s][吞吐率：15.14req/s] [内存消耗：3,451.47kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '32',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006056s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.004785s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='32' ) LIMIT 1 [ RunTime:0.002725s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004162s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003295s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002692s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T18:53:17+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/tongnei
+[ log ] www.ryaonet.cn/index.php/api/Api/tongnei [运行时间：0.062067s][吞吐率：16.11req/s] [内存消耗：3,451.43kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'tongnei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '14',
+)
+[ info ] [ RUN ] app\api\controller\Api->tongnei[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005644s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003277s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  (  id='14' ) LIMIT 1 [ RunTime:0.002712s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003493s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002867s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002256s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T19:08:20+08:00 ] 60.205.45.246 223.104.188.176 GET /
+[ log ] www.ryaonet.cn/ [运行时间：0.144085s][吞吐率：6.94req/s] [内存消耗：3,830.17kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=9psr8mp783n84oktr8gl00ut34; lastLoginTime=1501805909',
+  'dnt' => '1',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'tid',
+  1 => 'truename',
+  2 => 'lastLoginTime',
+  3 => 'zong',
+  4 => 'jrgx',
+  5 => 'funlandz',
+  6 => 'funlandg',
+  7 => 'recordz',
+  8 => 'recordg',
+  9 => 'newsz',
+  10 => 'newsg',
+  11 => 'noticez',
+  12 => 'noticeg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005479s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003494s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  id=13 ) LIMIT 1 [ RunTime:0.002511s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003733s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003316s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1 [ RunTime:0.002465s ]
+[ sql ] [ SQL ] SELECT `pudate` FROM `comment` [ RunTime:0.002485s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `pudate` <= 1501931300 [ RunTime:0.002822s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003970s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `funland` [ RunTime:0.003207s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `funland` LIMIT 1 [ RunTime:0.002656s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `funland` [ RunTime:0.002738s ]
+[ sql ] [ SQL ] SELECT * FROM `funland` WHERE  `pubdate` <= 1501931300 [ RunTime:0.002816s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004031s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record` [ RunTime:0.003346s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `record` LIMIT 1 [ RunTime:0.002696s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `record` [ RunTime:0.002720s ]
+[ sql ] [ SQL ] SELECT * FROM `record` WHERE  `pubdate` <= 1501931300 [ RunTime:0.002872s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003595s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003018s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1 [ RunTime:0.002404s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `news` [ RunTime:0.002461s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  `pubdate` <= 1501931300 [ RunTime:0.006116s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004009s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.003219s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `notice` LIMIT 1 [ RunTime:0.002726s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `notice` [ RunTime:0.003028s ]
+[ sql ] [ SQL ] SELECT * FROM `notice` WHERE  `pubdate` <= 1501931300 [ RunTime:0.006018s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T19:08:27+08:00 ] 60.205.45.246 223.104.188.176 GET /admin/index/themelist.html
+[ log ] www.ryaonet.cn/admin/index/themelist.html [运行时间：0.069688s][吞吐率：14.35req/s] [内存消耗：3,778.22kb] [文件加载：60]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'themelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=9psr8mp783n84oktr8gl00ut34; lastLoginTime=1501805909',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->themelist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005504s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003190s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1 [ RunTime:0.002503s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc LIMIT 0,3 [ RunTime:0.002594s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003830s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.002814s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1[/data/home/bxu2713310775/htdocs/thinkphp/library/think/db/Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-08-05T19:08:51+08:00 ] 60.205.45.246 223.104.188.176 GET /admin/index/newslist.html
+[ log ] www.ryaonet.cn/admin/index/newslist.html [运行时间：0.087556s][吞吐率：11.42req/s] [内存消耗：4,062.11kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'newslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=9psr8mp783n84oktr8gl00ut34; lastLoginTime=1501805909',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->newslist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/newslist.html [ array (
+  0 => 'rulelist',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005535s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003018s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1 [ RunTime:0.002380s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY id desc LIMIT 0,3 [ RunTime:0.003696s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T19:08:52+08:00 ] 60.205.45.246 223.104.188.176 GET /public/static//js/amazeui.min.js
+[ log ] www.ryaonet.cn/public/static//js/amazeui.min.js [运行时间：0.025416s][吞吐率：39.35req/s] [内存消耗：1,848.02kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'amazeui.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=9psr8mp783n84oktr8gl00ut34; lastLoginTime=1501805909',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/newslist.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T19:08:52+08:00 ] 60.205.45.246 223.104.188.176 GET /public/static//js/app.js
+[ log ] www.ryaonet.cn/public/static//js/app.js [运行时间：0.028081s][吞吐率：35.61req/s] [内存消耗：1,847.94kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'app.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=9psr8mp783n84oktr8gl00ut34; lastLoginTime=1501805909',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/newslist.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T19:12:58+08:00 ] 60.205.45.246 223.104.188.176 POST /admin/login/do_login.html
+[ log ] www.ryaonet.cn/admin/login/do_login.html [运行时间：0.058113s][吞吐率：17.21req/s] [内存消耗：3,206.50kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '27',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => '__guid=194668203.798321902548915500.1501373275470.686; lastLoginTime=1501805707; PHPSESSID=fo6njqgdsmjh8tflgca3m5cq36; monitor_count=144',
+  'host' => 'www.ryaonet.cn',
+  'origin' => 'http://www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'truename' => 'admin',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/thinkphp/tpl/dispatch_jump1.tpl [ array (
+  0 => 'truename',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005370s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002951s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  truename="admin" ) LIMIT 1 [ RunTime:0.003243s ]
+[ sql ] [ SQL ] SELECT `lastLoginTime` FROM `teacher` WHERE  (  id="13" ) LIMIT 1 [ RunTime:0.002466s ]
+[ sql ] [ SQL ] UPDATE `teacher`  SET `lastLoginTime`='1501931578'  WHERE  `id` = 13 [ RunTime:0.002449s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T19:12:59+08:00 ] 60.205.45.246 223.104.188.176 GET /favicon.ico
+[ log ] www.ryaonet.cn/favicon.ico [运行时间：0.029349s][吞吐率：34.07req/s] [内存消耗：1,846.75kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => '__guid=194668203.798321902548915500.1501373275470.686; PHPSESSID=fo6njqgdsmjh8tflgca3m5cq36; lastLoginTime=1501928941; monitor_count=145',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/do_login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-05T19:13:00+08:00 ] 60.205.45.246 223.104.188.176 GET /admin/index/index.html
+[ log ] www.ryaonet.cn/admin/index/index.html [运行时间：0.144199s][吞吐率：6.93req/s] [内存消耗：3,838.35kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => '__guid=194668203.798321902548915500.1501373275470.686; PHPSESSID=fo6njqgdsmjh8tflgca3m5cq36; lastLoginTime=1501928941; monitor_count=145',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'tid',
+  1 => 'truename',
+  2 => 'lastLoginTime',
+  3 => 'zong',
+  4 => 'jrgx',
+  5 => 'funlandz',
+  6 => 'funlandg',
+  7 => 'recordz',
+  8 => 'recordg',
+  9 => 'newsz',
+  10 => 'newsg',
+  11 => 'noticez',
+  12 => 'noticeg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005581s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003228s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  id=13 ) LIMIT 1 [ RunTime:0.002636s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003563s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003452s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1 [ RunTime:0.002318s ]
+[ sql ] [ SQL ] SELECT `pudate` FROM `comment` [ RunTime:0.002312s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `pudate` <= 1501931580 [ RunTime:0.002474s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003848s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `funland` [ RunTime:0.003114s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `funland` LIMIT 1 [ RunTime:0.002505s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `funland` [ RunTime:0.002558s ]
+[ sql ] [ SQL ] SELECT * FROM `funland` WHERE  `pubdate` <= 1501931580 [ RunTime:0.002750s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003708s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record` [ RunTime:0.003059s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `record` LIMIT 1 [ RunTime:0.002417s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `record` [ RunTime:0.002411s ]
+[ sql ] [ SQL ] SELECT * FROM `record` WHERE  `pubdate` <= 1501931580 [ RunTime:0.002751s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003966s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003239s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1 [ RunTime:0.002572s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `news` [ RunTime:0.002554s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE  `pubdate` <= 1501931580 [ RunTime:0.005898s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004817s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.003297s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `notice` LIMIT 1 [ RunTime:0.002640s ]
+[ sql ] [ SQL ] SELECT `pubdate` FROM `notice` [ RunTime:0.002677s ]
+[ sql ] [ SQL ] SELECT * FROM `notice` WHERE  `pubdate` <= 1501931580 [ RunTime:0.006218s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T19:13:03+08:00 ] 60.205.45.246 223.104.188.176 GET /admin/index/themelist.html
+[ log ] www.ryaonet.cn/admin/index/themelist.html [运行时间：0.069493s][吞吐率：14.39req/s] [内存消耗：3,778.00kb] [文件加载：60]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'themelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => '__guid=194668203.798321902548915500.1501373275470.686; PHPSESSID=fo6njqgdsmjh8tflgca3m5cq36; lastLoginTime=1501928941; monitor_count=146',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->themelist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005635s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003126s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1 [ RunTime:0.002433s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc LIMIT 0,3 [ RunTime:0.002493s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003365s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.002749s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1[/data/home/bxu2713310775/htdocs/thinkphp/library/think/db/Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-08-05T19:34:11+08:00 ] 60.205.45.246 223.104.188.176 GET /admin/index/themelist.html
+[ log ] www.ryaonet.cn/admin/index/themelist.html [运行时间：0.111841s][吞吐率：8.94req/s] [内存消耗：3,794.80kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'themelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => '__guid=194668203.798321902548915500.1501373275470.686; PHPSESSID=fo6njqgdsmjh8tflgca3m5cq36; lastLoginTime=1501928941; monitor_count=146',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->themelist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/themelist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043711s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003202s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1 [ RunTime:0.002597s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` ORDER BY id desc LIMIT 0,3 [ RunTime:0.002799s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004095s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003165s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `family` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002672s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `family` WHERE  (  id=22 ) LIMIT 1 [ RunTime:0.002710s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T19:40:09+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/nav
+[ log ] www.ryaonet.cn/index.php/api/Api/nav [运行时间：0.081785s][吞吐率：12.23req/s] [内存消耗：3,451.27kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'nav',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '16',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Api->nav[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005608s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003154s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002440s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004569s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `family` INNER JOIN `student` `student` ON `family`.`id`=`student`.`fid` WHERE  (  family.id=22 ) LIMIT 1 [ RunTime:0.003174s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003595s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003153s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002407s ]
+[ sql ] [ SQL ] SELECT `telphone` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002428s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003563s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `class` [ RunTime:0.002760s ]
+[ sql ] [ SQL ] SELECT `class_name` FROM `class` WHERE  (  id=4 ) LIMIT 1 [ RunTime:0.002453s ]
+
+---------------------------------------------------------------
+[ 2017-08-05T19:40:15+08:00 ] 60.205.45.246 112.224.2.179 POST /index.php/api/Api/nav
+[ log ] www.ryaonet.cn/index.php/api/Api/nav [运行时间：0.081105s][吞吐率：12.33req/s] [内存消耗：3,451.27kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'nav',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '16',
+  'content-type' => 'application/json; charset=utf-8',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=r6p51vd4j2cos25abc4dlrnro6',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'userid' => '123',
+)
+[ info ] [ RUN ] app\api\controller\Api->nav[ /data/home/bxu2713310775/htdocs/application/api/controller/Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005282s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003043s ]
+[ sql ] [ SQL ] SELECT * FROM `family` WHERE  (  telphone='123' ) LIMIT 1 [ RunTime:0.002397s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003629s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `family` INNER JOIN `student` `student` ON `family`.`id`=`student`.`fid` WHERE  (  family.id=22 ) LIMIT 1 [ RunTime:0.002906s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004040s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003266s ]
+[ sql ] [ SQL ] SELECT `truename` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002657s ]
+[ sql ] [ SQL ] SELECT `telphone` FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002689s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003948s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `class` [ RunTime:0.003033s ]
+[ sql ] [ SQL ] SELECT `class_name` FROM `class` WHERE  (  id=4 ) LIMIT 1 [ RunTime:0.002617s ]
+
+---------------------------------------------------------------

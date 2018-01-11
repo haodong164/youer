@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+<head>
+
+    {include file="public/css"}
+</head>
+
+<body>
+
+
+
+
+
+<div class="tpl-portlet-components">
+    <div class="portlet-title">
+        <div class="caption font-green bold">
+            管理员添加
+        </div>
+        <div class="tpl-portlet-input tpl-fz-ml">
+            <div class="portlet-input input-small input-inline">
+                <div class="input-icon right">
+                    <i class="am-icon-search"></i>
+                    <input type="text" class="form-control form-control-solid" placeholder="搜索..."> </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="tpl-block ">
+
+        <div class="am-g tpl-amazeui-form">
+
+
+            <div class="am-u-sm-12 am-u-md-9">
+                <form class="am-form am-form-horizontal" action="{:url('Index/do_add_auth_group')}" method="post">
+                    <div class="am-form-group">
+                        <label for="user-name" class="am-u-sm-3 am-form-label">管理员名称</label>
+                        <div class="am-u-sm-9">
+                            <input type="text"  id="rule_en_name" name="title" placeholder="姓名 / Name">
+                            <small id="showjs">输入用户组名称</small>
+                        </div>
+                    </div>
+
+
+<!--此处有问题，权限号应为下拉菜单-->
+                    <div class="am-form-group">
+                        <label for="user-name" class="am-u-sm-3 am-form-label">管理员权限号</label>
+                        <div class="am-u-sm-9">
+                            <input type="text"  id="user-name" name="rules" placeholder="权限号">
+                            <small>请已英文逗号隔开</small>
+                        </div>
+                    </div>
+
+
+                    <div class="am-form-group">
+                        <label  class="am-u-sm-3 am-form-label">状态 / Status</label>
+                        <div class="am-u-sm-9">
+                            <input type="radio" name="status" checked="checked" value="1"><small>启用</small>
+                            <input type="radio" name="status" value="0"><small>禁用</small>
+
+                        </div>
+                    </div>
+
+                    <div class="am-form-group">
+                        <div class="am-u-sm-9 am-u-sm-push-3">
+                            <button type="submit" class="am-btn am-btn-primary">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+{include file="public/js"}
+
+
+<script type="text/javascript">
+    $('#rule_en_name').blur(function(){
+        var Enname=$(this).val();//获得当前框中的值
+        // alert(Enname);
+        if(Enname=='')
+        {
+            $('#showjs').html('名称不可为空');
+            $('#showjs').css('color','red');
+            $('.am-btn-primary').attr('disabled',true);
+            return false;
+
+        }
+
+        $.ajax({
+            url:"{:url('Index/groupjc')}",
+            type:"post",
+            data:{names:Enname},
+            success:function (data) {
+                // alert(data.zhuangtai);
+                $('#showjs').html(data.msg);
+                if(data.status)
+                {
+                    $('#showjs').css('color','red');
+                    $('.am-btn-primary').attr('disabled',true);
+                }
+                else
+                {
+                    $('#showjs').css('color','green');
+                    $('.am-btn-primary').attr('disabled',false);
+                }
+            }
+        });
+
+
+    });
+
+
+
+</script>
+</body>
+
+</html>

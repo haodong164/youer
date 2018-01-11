@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+
+{include file="Public/headcc"}
+
+<body data-type="generalComponents">
+
+    <div class="tpl-content-wrapper1">
+        <div class="tpl-content-page-title">
+         
+        </div>
+        
+        <div class="tpl-portlet-components">
+            <div class="portlet-title">
+                
+                <div class="tpl-portlet-input tpl-fz-ml">
+                    <div class="portlet-input input-small input-inline">
+                        <div class="input-icon right">
+                            <i class="am-icon-search"></i>
+                            <input type="text" class="form-control form-control-solid" placeholder="搜索..."> </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="tpl-block ">
+
+                <div class="am-g tpl-amazeui-form">
+
+
+                    <div class="am-u-sm-12 am-u-md-9">
+                        <form action="{:url('Index/do_addrule')}" method="post" class="am-form am-form-horizontal">
+                            <div class="am-form-group">
+                                <label for="rule_en_name" class="am-u-sm-3 am-form-label">规则英文名称 / Name</label>
+                                <div class="am-u-sm-9">
+                                    <input type="text" name="name" id="rule_en_name" placeholder="规则英文名称 / Name">
+                                    <small id="showjs"> </small>
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="rule_zh_name" class="am-u-sm-3 am-form-label">规则中文名称 / ZhName</label>
+                                <div class="am-u-sm-9">
+                                    <input type="text" name="title"  id="rule_zh_name"  placeholder="规则中文名称 / Name">
+                                    <small id="showzhjs"></small>
+                                </div>
+                            </div>
+
+
+
+                            <div class="am-form-group">
+                                <label  class="am-u-sm-3 am-form-label">级别</label>
+                                <div class="am-u-sm-9">
+                                    <input type="radio" name="status" checked="checked" value='1'><small>启用</small>
+                                    <input type="radio" name="status" value='0'><small>禁用</small>
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label  class="am-u-sm-3 am-form-label"></label>
+                                <div class="am-u-sm-9">
+                                    <input type="radio" name="level" checked="checked" value='1'><small>模块</small>
+                                    <input type="radio" name="level" value='2'><small>控制器</small>
+                                    <input type="radio" name="level" value='3'><small>操作方法</small>
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label  class="am-u-sm-3 am-form-label">上一别</label>
+                                <div class="am-u-sm-9">
+                                    <select name="parentid">
+                                        <option value='0'>默认</option>
+                                        {volist id="vo" name="rulelist"}
+                                            <option value="{$vo.id}">{$vo.title}</option>
+                                                {volist id="sec" name="vo.second"}
+                                                    <option value="{$sec.id}">----{$sec.title}</option>
+                                                {/volist}
+                                        {/volist}
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="am-form-group">
+                                <div class="am-u-sm-9 am-u-sm-push-3">
+                                    <button type="submit" class="am-btn am-btn-primary">添加</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+{include file="Public/foot"}
+
+<script type="text/javascript">
+$('#rule_en_name').blur(function(){
+    var Enname=$(this).val();//获得当前框中的值
+   // alert(Enname);
+    if(Enname=='')
+    {
+        $('#showjs').html('名称不可为空');
+        $('#showjs').css('color','red');
+        return false;
+
+    }
+
+    $.ajax({
+        url:"{:url('Index/checkennmane')}",
+        type:"post",
+        data:{names:Enname},
+        success:function (data) {
+           // alert(data.zhuangtai);
+            $('#showjs').html(data.msg);
+            if(data.zhuangtai)
+            {
+                $('#showjs').css('color','red');
+            }
+            else
+            {
+                $('#showjs').css('color','green');
+            }
+        }
+        });
+
+
+});
+
+
+$('#rule_zh_name').blur(function(){
+    var zhname=$(this).val();//获得当前框中的值
+    // alert(Enname);
+    if(zhname=='')
+    {
+        $('#showzhjs').html('名称不可为空');
+        $('#showzhjs').css('color','red');
+        return false;
+
+    }
+
+    $.ajax({
+        url:"{:url('Index/checkzhnmane')}",
+        type:"post",
+        data:{names:zhname},
+        success:function (data) {
+            // alert(data.zhuangtai);
+            $('#showjszh').html(data.msg);
+            if(data.zhuangtai)
+            {
+                $('#showzhjs').css('color','red');
+            }
+            else
+            {
+                $('#showzhjs').css('color','green');
+            }
+        }
+    });
+
+
+});
+</script>
+
+
+</body>
+
+</html>

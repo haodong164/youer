@@ -1,0 +1,3598 @@
+[ 2017-07-10T09:22:13+08:00 ] ::1 ::1 GET /phpMyAdmin/
+[ log ] localhost/phpMyAdmin/ [运行时间：1.370016s][吞吐率：0.73req/s] [内存消耗：1,380.66kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T17:59:50+08:00 ] 60.205.45.246 112.224.20.63 GET /
+[ log ] www.ryaonet.cn/ [运行时间：0.031590s][吞吐率：31.66req/s] [内存消耗：2,579.16kb] [文件加载：48]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T17:59:51+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/login/login.html
+[ log ] www.ryaonet.cn/admin/login/login.html [运行时间：0.031018s][吞吐率：32.24req/s] [内存消耗：2,236.64kb] [文件加载：47]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/login/login.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-07-10T17:59:51+08:00 ] 60.205.45.246 112.224.20.63 GET /favicon.ico
+[ log ] www.ryaonet.cn/favicon.ico [运行时间：0.023993s][吞吐率：41.68req/s] [内存消耗：1,842.45kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:10:49+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/login/login.html
+[ log ] www.ryaonet.cn/admin/login/login.html [运行时间：0.032778s][吞吐率：30.51req/s] [内存消耗：2,237.52kb] [文件加载：47]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/login/login.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:11:04+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/login/login.html
+[ log ] www.ryaonet.cn/admin/login/login.html [运行时间：0.032365s][吞吐率：30.90req/s] [内存消耗：2,456.87kb] [文件加载：48]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:11:05+08:00 ] 60.205.45.246 219.146.198.25 GET /static/assets/css/admin.css
+[ log ] www.ryaonet.cn/static/assets/css/admin.css [运行时间：0.033332s][吞吐率：30.00req/s] [内存消耗：1,843.72kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:11:05+08:00 ] 60.205.45.246 219.146.198.25 GET /static/assets/css/app.css
+[ log ] www.ryaonet.cn/static/assets/css/app.css [运行时间：0.025768s][吞吐率：38.81req/s] [内存消耗：1,843.66kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:11:05+08:00 ] 60.205.45.246 219.146.198.25 GET /static/assets/css/amazeui.min.css
+[ log ] www.ryaonet.cn/static/assets/css/amazeui.min.css [运行时间：0.030524s][吞吐率：32.76req/s] [内存消耗：1,843.67kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:11:05+08:00 ] 60.205.45.246 219.146.198.25 GET /static/assets/js/amazeui.min.js
+[ log ] www.ryaonet.cn/static/assets/js/amazeui.min.js [运行时间：0.026458s][吞吐率：37.80req/s] [内存消耗：1,843.63kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:11:05+08:00 ] 60.205.45.246 219.146.198.25 GET /static/assets/js/jquery.min.js
+[ log ] www.ryaonet.cn/static/assets/js/jquery.min.js [运行时间：0.037743s][吞吐率：26.49req/s] [内存消耗：1,843.68kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:11:05+08:00 ] 60.205.45.246 219.146.198.25 GET /static/assets/js/app.js
+[ log ] www.ryaonet.cn/static/assets/js/app.js [运行时间：0.035411s][吞吐率：28.24req/s] [内存消耗：1,843.51kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:11:05+08:00 ] 60.205.45.246 219.146.198.25 GET /static/assets/i/favicon.png
+[ log ] www.ryaonet.cn/static/assets/i/favicon.png [运行时间：0.024306s][吞吐率：41.14req/s] [内存消耗：1,844.16kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'pragma' => 'no-cache',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:12:12+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/login/login.html
+[ log ] www.ryaonet.cn/admin/login/login.html [运行时间：0.030153s][吞吐率：33.16req/s] [内存消耗：2,266.12kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:12:16+08:00 ] 60.205.45.246 219.146.198.25 POST /admin/login/do_login.html
+[ log ] www.ryaonet.cn/admin/login/do_login.html [运行时间：0.050727s][吞吐率：19.71req/s] [内存消耗：3,090.55kb] [文件加载：52]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '24',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'origin' => 'http://www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'truename' => '123',
+  'password' => '12',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[28000] [1045] Access denied for user 'bdm290812320'@'123.56.168.152' (using password: YES)[/data/home/bxu2713310775/htdocs/thinkphp/library/think/db/Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:12:40+08:00 ] 60.205.45.246 219.146.198.25 POST /admin/login/do_login.html
+[ log ] www.ryaonet.cn/admin/login/do_login.html [运行时间：0.055926s][吞吐率：17.88req/s] [内存消耗：3,384.17kb] [文件加载：56]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '24',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'origin' => 'http://www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'truename' => '123',
+  'password' => '12',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/thinkphp/tpl/dispatch_jump1.tpl [ array (
+  0 => 'truename',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005895s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003628s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  truename="123" ) LIMIT 1 [ RunTime:0.002549s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:12:41+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/index.html
+[ log ] www.ryaonet.cn/admin/index/index.html [运行时间：0.052156s][吞吐率：19.17req/s] [内存消耗：3,451.93kb] [文件加载：55]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005493s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002887s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002262s ]
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/index/index.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:13:05+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/index.html
+[ log ] www.ryaonet.cn/admin/index/index.html [运行时间：0.056791s][吞吐率：17.61req/s] [内存消耗：3,717.18kb] [文件加载：56]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'truename',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005582s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003284s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002571s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:13:06+08:00 ] 60.205.45.246 219.146.198.25 GET /Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg
+[ log ] www.ryaonet.cn/Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg [运行时间：0.024924s][吞吐率：40.12req/s] [内存消耗：1,843.83kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Uploads',
+    1 => '20170605',
+    2 => 'c583fef34424431978b54c75a1c8d494.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:13:09+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/teacherlist.html
+[ log ] www.ryaonet.cn/admin/index/teacherlist.html [运行时间：0.060689s][吞吐率：16.48req/s] [内存消耗：3,620.70kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'teacherlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->teacherlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/teacherlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005979s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003186s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1 [ RunTime:0.002582s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` LIMIT 0,3 [ RunTime:0.002573s ]
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/Public\head.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:13:11+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/recordlist.html
+[ log ] www.ryaonet.cn/admin/index/recordlist.html [运行时间：0.060876s][吞吐率：16.43req/s] [内存消耗：3,615.43kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'recordlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->recordlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/recordlist.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005122s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record` [ RunTime:0.004240s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `record` LIMIT 1 [ RunTime:0.002458s ]
+[ sql ] [ SQL ] SELECT * FROM `record` LIMIT 0,3 [ RunTime:0.002294s ]
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/Public\head.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:25:02+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/recordlist.html
+[ log ] www.ryaonet.cn/admin/index/recordlist.html [运行时间：0.060455s][吞吐率：16.54req/s] [内存消耗：3,615.43kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'recordlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->recordlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/recordlist.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005836s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record` [ RunTime:0.003339s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `record` LIMIT 1 [ RunTime:0.002546s ]
+[ sql ] [ SQL ] SELECT * FROM `record` LIMIT 0,3 [ RunTime:0.002526s ]
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/Public\head.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:25:03+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/familylist.html
+[ log ] www.ryaonet.cn/admin/index/familylist.html [运行时间：0.060375s][吞吐率：16.56req/s] [内存消耗：3,617.86kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'familylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->familylist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/familylist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005101s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.002986s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `family` LIMIT 1 [ RunTime:0.002344s ]
+[ sql ] [ SQL ] SELECT * FROM `family` LIMIT 0,3 [ RunTime:0.002241s ]
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/Public\head.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:25:04+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/studentlist.html
+[ log ] www.ryaonet.cn/admin/index/studentlist.html [运行时间：0.063036s][吞吐率：15.86req/s] [内存消耗：3,616.14kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'studentlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->studentlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/studentlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005646s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.003427s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1 [ RunTime:0.002344s ]
+[ sql ] [ SQL ] SELECT * FROM `student` LIMIT 0,3 [ RunTime:0.002376s ]
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/public/head.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:25:10+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/ablumnlist.html
+[ log ] www.ryaonet.cn/admin/index/ablumnlist.html [运行时间：0.063776s][吞吐率：15.68req/s] [内存消耗：3,615.76kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'ablumnlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->ablumnlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/ablumnlist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006217s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ablumn` [ RunTime:0.003644s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ablumn` LIMIT 1 [ RunTime:0.002838s ]
+[ sql ] [ SQL ] SELECT * FROM `ablumn` LIMIT 0,3 [ RunTime:0.002857s ]
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/public/head.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:25:11+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/photo_grouplist.html
+[ log ] www.ryaonet.cn/admin/index/photo_grouplist.html [运行时间：0.059064s][吞吐率：16.93req/s] [内存消耗：3,611.98kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'photo_grouplist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->photo_grouplist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/photo_grouplist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005151s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `photo_group` [ RunTime:0.002999s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `photo_group` LIMIT 1 [ RunTime:0.002225s ]
+[ sql ] [ SQL ] SELECT * FROM `photo_group` LIMIT 0,3 [ RunTime:0.002260s ]
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/public/head.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:25:13+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/teacherlist.html
+[ log ] www.ryaonet.cn/admin/index/teacherlist.html [运行时间：0.059291s][吞吐率：16.87req/s] [内存消耗：3,620.70kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'teacherlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->teacherlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/teacherlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005187s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003249s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1 [ RunTime:0.002276s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` LIMIT 0,3 [ RunTime:0.002382s ]
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/Public\head.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:25:16+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/userlist.html
+[ log ] www.ryaonet.cn/admin/index/userlist.html [运行时间：0.060153s][吞吐率：16.62req/s] [内存消耗：3,613.48kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->userlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/userlist.html [ array (
+  0 => 'rulelist',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005957s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `attence` [ RunTime:0.003501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `attence` LIMIT 1 [ RunTime:0.002745s ]
+[ sql ] [ SQL ] SELECT * FROM `attence` LIMIT 0,3 [ RunTime:0.002712s ]
+[ error ] [0]模板文件不存在:/data/home/bxu2713310775/htdocs/application/admin/view/public/head.html[/data/home/bxu2713310775/htdocs/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:25:18+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/calendar_list.html
+[ log ] www.ryaonet.cn/admin/index/calendar_list.html [运行时间：0.061679s][吞吐率：16.21req/s] [内存消耗：3,829.46kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'calendar_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->calendar_list[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/calendar_list.html [ array (
+  0 => 'userlist',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008190s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `calendar` [ RunTime:0.003242s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `calendar` LIMIT 1 [ RunTime:0.002284s ]
+[ sql ] [ SQL ] SELECT * FROM `calendar` LIMIT 0,3 [ RunTime:0.002308s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:25:23+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/themelist.html
+[ log ] www.ryaonet.cn/admin/index/themelist.html [运行时间：0.060302s][吞吐率：16.58req/s] [内存消耗：3,829.34kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'themelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->themelist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/themelist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005087s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.003211s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `theme` LIMIT 1 [ RunTime:0.002264s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` LIMIT 0,3 [ RunTime:0.002450s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:25:25+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/add_news.html
+[ log ] www.ryaonet.cn/admin/index/add_news.html [运行时间：0.068857s][吞吐率：14.52req/s] [内存消耗：3,692.01kb] [文件加载：56]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'add_news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->add_news[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/add_news.html [ array (
+  0 => 'rulelist',
+  1 => 'rulelists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005597s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `new_cate` [ RunTime:0.003289s ]
+[ sql ] [ SQL ] SELECT * FROM `new_cate` WHERE  (  pid=0 ) [ RunTime:0.002649s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003331s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002729s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` [ RunTime:0.002320s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:28+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/index.html
+[ log ] www.ryaonet.cn/admin/index/index.html [运行时间：0.058887s][吞吐率：16.98req/s] [内存消耗：3,717.04kb] [文件加载：56]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'truename',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005117s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003158s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002356s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:28+08:00 ] 60.205.45.246 112.224.20.63 GET /Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg
+[ log ] www.ryaonet.cn/Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg [运行时间：0.025275s][吞吐率：39.56req/s] [内存消耗：1,843.83kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Uploads',
+    1 => '20170605',
+    2 => 'c583fef34424431978b54c75a1c8d494.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:31+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/teacherlist.html
+[ log ] www.ryaonet.cn/admin/index/teacherlist.html [运行时间：0.058282s][吞吐率：17.16req/s] [内存消耗：3,833.20kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'teacherlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->teacherlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/teacherlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005140s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002913s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1 [ RunTime:0.002273s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` LIMIT 0,3 [ RunTime:0.002348s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:32+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/recordlist.html
+[ log ] www.ryaonet.cn/admin/index/recordlist.html [运行时间：0.059979s][吞吐率：16.67req/s] [内存消耗：3,826.24kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'recordlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->recordlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/recordlist.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005597s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record` [ RunTime:0.003088s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `record` LIMIT 1 [ RunTime:0.002283s ]
+[ sql ] [ SQL ] SELECT * FROM `record` LIMIT 0,3 [ RunTime:0.002257s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:33+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/familylist.html
+[ log ] www.ryaonet.cn/admin/index/familylist.html [运行时间：0.066292s][吞吐率：15.08req/s] [内存消耗：3,830.20kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'familylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->familylist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/familylist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005499s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.008278s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `family` LIMIT 1 [ RunTime:0.002594s ]
+[ sql ] [ SQL ] SELECT * FROM `family` LIMIT 0,3 [ RunTime:0.002598s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:34+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/studentlist.html
+[ log ] www.ryaonet.cn/admin/index/studentlist.html [运行时间：0.061380s][吞吐率：16.29req/s] [内存消耗：3,827.65kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'studentlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->studentlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/studentlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005599s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.002967s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1 [ RunTime:0.002218s ]
+[ sql ] [ SQL ] SELECT * FROM `student` LIMIT 0,3 [ RunTime:0.002176s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:36+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/ablumnlist.html
+[ log ] www.ryaonet.cn/admin/index/ablumnlist.html [运行时间：0.063660s][吞吐率：15.71req/s] [内存消耗：3,893.45kb] [文件加载：63]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'ablumnlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->ablumnlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/ablumnlist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005680s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ablumn` [ RunTime:0.003324s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ablumn` LIMIT 1 [ RunTime:0.002552s ]
+[ sql ] [ SQL ] SELECT * FROM `ablumn` LIMIT 0,3 [ RunTime:0.002535s ]
+[ error ] [8]未定义数组索引: abname[/data/home/bxu2713310775/htdocs/runtime/temp/f637aac68a515549efb954e2339bb2de.php:78]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:37+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/photo_grouplist.html
+[ log ] www.ryaonet.cn/admin/index/photo_grouplist.html [运行时间：0.059270s][吞吐率：16.87req/s] [内存消耗：3,823.17kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'photo_grouplist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->photo_grouplist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/photo_grouplist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005559s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `photo_group` [ RunTime:0.002905s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `photo_group` LIMIT 1 [ RunTime:0.002195s ]
+[ sql ] [ SQL ] SELECT * FROM `photo_group` LIMIT 0,3 [ RunTime:0.002270s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:50+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/userlist.html
+[ log ] www.ryaonet.cn/admin/index/userlist.html [运行时间：0.060291s][吞吐率：16.59req/s] [内存消耗：3,824.91kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->userlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/userlist.html [ array (
+  0 => 'rulelist',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006075s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `attence` [ RunTime:0.003338s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `attence` LIMIT 1 [ RunTime:0.002474s ]
+[ sql ] [ SQL ] SELECT * FROM `attence` LIMIT 0,3 [ RunTime:0.002508s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:51+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/calendar_list.html
+[ log ] www.ryaonet.cn/admin/index/calendar_list.html [运行时间：0.061014s][吞吐率：16.39req/s] [内存消耗：3,829.44kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'calendar_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->calendar_list[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/calendar_list.html [ array (
+  0 => 'userlist',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005731s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `calendar` [ RunTime:0.003374s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `calendar` LIMIT 1 [ RunTime:0.002625s ]
+[ sql ] [ SQL ] SELECT * FROM `calendar` LIMIT 0,3 [ RunTime:0.002503s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:54+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/themelist.html
+[ log ] www.ryaonet.cn/admin/index/themelist.html [运行时间：0.408081s][吞吐率：2.45req/s] [内存消耗：3,829.04kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'themelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->themelist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/themelist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005183s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.003142s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `theme` LIMIT 1 [ RunTime:0.002244s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` LIMIT 0,3 [ RunTime:0.002321s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:56+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/add_news.html
+[ log ] www.ryaonet.cn/admin/index/add_news.html [运行时间：0.063270s][吞吐率：15.81req/s] [内存消耗：3,691.63kb] [文件加载：56]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'add_news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->add_news[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/add_news.html [ array (
+  0 => 'rulelist',
+  1 => 'rulelists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005400s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `new_cate` [ RunTime:0.003239s ]
+[ sql ] [ SQL ] SELECT * FROM `new_cate` WHERE  (  pid=0 ) [ RunTime:0.002247s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003336s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002725s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` [ RunTime:0.002266s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:57+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/newslist.html
+[ log ] www.ryaonet.cn/admin/index/newslist.html [运行时间：0.059929s][吞吐率：16.69req/s] [内存消耗：3,843.99kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'newslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->newslist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/newslist.html [ array (
+  0 => 'rulelist',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005890s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.003257s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1 [ RunTime:0.002482s ]
+[ sql ] [ SQL ] SELECT * FROM `news` LIMIT 0,3 [ RunTime:0.002618s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:57+08:00 ] 60.205.45.246 112.224.20.63 GET /public/static//js/amazeui.min.js
+[ log ] www.ryaonet.cn/public/static//js/amazeui.min.js [运行时间：0.024793s][吞吐率：40.33req/s] [内存消耗：1,842.76kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'amazeui.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/newslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:57+08:00 ] 60.205.45.246 112.224.20.63 GET /public/static//js/app.js
+[ log ] www.ryaonet.cn/public/static//js/app.js [运行时间：0.024676s][吞吐率：40.53req/s] [内存消耗：1,842.69kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'app.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/newslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:58+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/add_new_cate.html
+[ log ] www.ryaonet.cn/admin/index/add_new_cate.html [运行时间：0.053673s][吞吐率：18.63req/s] [内存消耗：3,672.91kb] [文件加载：56]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'add_new_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->add_new_cate[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/add_new_cate.html [ array (
+  0 => 'rulelist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005433s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `new_cate` [ RunTime:0.002938s ]
+[ sql ] [ SQL ] SELECT * FROM `new_cate` WHERE  (  pid=0 ) [ RunTime:0.002253s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:58+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/new_catelist.html
+[ log ] www.ryaonet.cn/admin/index/new_catelist.html [运行时间：0.060745s][吞吐率：16.46req/s] [内存消耗：3,821.73kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'new_catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->new_catelist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/new_catelist.html [ array (
+  0 => 'rulelist',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005742s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `new_cate` [ RunTime:0.003493s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `new_cate` LIMIT 1 [ RunTime:0.002808s ]
+[ sql ] [ SQL ] SELECT * FROM `new_cate` LIMIT 0,3 [ RunTime:0.002543s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:58+08:00 ] 60.205.45.246 112.224.20.63 GET /public/static//js/amazeui.min.js
+[ log ] www.ryaonet.cn/public/static//js/amazeui.min.js [运行时间：0.025981s][吞吐率：38.49req/s] [内存消耗：1,842.78kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'amazeui.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/new_catelist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:46:58+08:00 ] 60.205.45.246 112.224.20.63 GET /public/static//js/app.js
+[ log ] www.ryaonet.cn/public/static//js/app.js [运行时间：0.025765s][吞吐率：38.81req/s] [内存消耗：1,842.90kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'app.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/new_catelist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:47:00+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/do_teacher.html
+[ log ] www.ryaonet.cn/admin/index/do_teacher.html [运行时间：0.057488s][吞吐率：17.39req/s] [内存消耗：3,675.27kb] [文件加载：56]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'do_teacher',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->do_teacher[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/do_teacher.html [ array (
+  0 => 'jiaoshi',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006058s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003686s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` [ RunTime:0.002797s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:47:01+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/comment.html
+[ log ] www.ryaonet.cn/admin/index/comment.html [运行时间：0.067859s][吞吐率：14.74req/s] [内存消耗：3,691.95kb] [文件加载：56]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->comment[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/comment.html [ array (
+  0 => 'student',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006012s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.003220s ]
+[ sql ] [ SQL ] SELECT * FROM `student` [ RunTime:0.002634s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004261s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003318s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` [ RunTime:0.002824s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:47:02+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/jiazhangchaxun.html
+[ log ] www.ryaonet.cn/admin/index/jiazhangchaxun.html [运行时间：0.060517s][吞吐率：16.52req/s] [内存消耗：3,753.59kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jiazhangchaxun',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->jiazhangchaxun[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/jiazhangchaxun.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005839s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1 [ RunTime:0.002545s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` LIMIT 0,3 [ RunTime:0.002577s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:47:03+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/xiugai.html
+[ log ] www.ryaonet.cn/admin/index/xiugai.html [运行时间：0.058791s][吞吐率：17.01req/s] [内存消耗：3,753.63kb] [文件加载：58]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'xiugai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->xiugai[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/xiugai.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005423s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002996s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1 [ RunTime:0.002331s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` LIMIT 0,3 [ RunTime:0.002366s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:47:04+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/rulelist.html
+[ log ] www.ryaonet.cn/admin/index/rulelist.html [运行时间：0.061193s][吞吐率：16.34req/s] [内存消耗：3,836.67kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'rulelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->rulelist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/rulelist.html [ array (
+  0 => 'val',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005156s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.003017s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_auth_rule` LIMIT 1 [ RunTime:0.002219s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` LIMIT 0,3 [ RunTime:0.002325s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:47:06+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/group_grouplist.html
+[ log ] www.ryaonet.cn/admin/index/group_grouplist.html [运行时间：0.063539s][吞吐率：15.74req/s] [内存消耗：3,832.02kb] [文件加载：59]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'group_grouplist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->group_grouplist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/group_grouplist.html [ array (
+  0 => 'rulelist',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005474s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.003221s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_auth_group` LIMIT 1 [ RunTime:0.002607s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_group` LIMIT 0,3 [ RunTime:0.002512s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:48:00+08:00 ] 60.205.45.246 112.224.20.63 GET /favicon.ico
+[ log ] www.ryaonet.cn/favicon.ico [运行时间：0.023620s][吞吐率：42.34req/s] [内存消耗：1,841.59kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:48:00+08:00 ] 60.205.45.246 112.224.20.63 GET /
+[ log ] www.ryaonet.cn/ [运行时间：0.053933s][吞吐率：18.54req/s] [内存消耗：3,488.38kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'truename',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006663s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003032s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002396s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T19:48:00+08:00 ] 60.205.45.246 112.224.20.63 GET /Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg
+[ log ] www.ryaonet.cn/Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg [运行时间：0.025052s][吞吐率：39.92req/s] [内存消耗：1,842.99kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Uploads',
+    1 => '20170605',
+    2 => 'c583fef34424431978b54c75a1c8d494.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T19:48:05+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/teacherlist.html
+[ log ] www.ryaonet.cn/admin/index/teacherlist.html [运行时间：0.057766s][吞吐率：17.31req/s] [内存消耗：3,629.73kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'teacherlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->teacherlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/teacherlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006173s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003142s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1 [ RunTime:0.002467s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` LIMIT 0,3 [ RunTime:0.002547s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:15:38+08:00 ] 60.205.45.246 219.146.198.25 GET /
+[ log ] www.ryaonet.cn/ [运行时间：0.088025s][吞吐率：11.36req/s] [内存消耗：3,488.38kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'truename',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038785s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003300s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002671s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:15:39+08:00 ] 60.205.45.246 219.146.198.25 GET /Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg
+[ log ] www.ryaonet.cn/Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg [运行时间：0.026971s][吞吐率：37.08req/s] [内存消耗：1,842.99kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Uploads',
+    1 => '20170605',
+    2 => 'c583fef34424431978b54c75a1c8d494.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T20:15:52+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/teacherlist.html
+[ log ] www.ryaonet.cn/admin/index/teacherlist.html [运行时间：0.058726s][吞吐率：17.03req/s] [内存消耗：3,629.73kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'teacherlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->teacherlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/teacherlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005588s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.002860s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1 [ RunTime:0.002213s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` LIMIT 0,3 [ RunTime:0.002256s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:15:53+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/recordlist.html
+[ log ] www.ryaonet.cn/admin/index/recordlist.html [运行时间：0.058424s][吞吐率：17.12req/s] [内存消耗：3,624.91kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'recordlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->recordlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/recordlist.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005347s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record` [ RunTime:0.003029s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `record` LIMIT 1 [ RunTime:0.002330s ]
+[ sql ] [ SQL ] SELECT * FROM `record` LIMIT 0,3 [ RunTime:0.002344s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:15:55+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/familylist.html
+[ log ] www.ryaonet.cn/admin/index/familylist.html [运行时间：0.058610s][吞吐率：17.06req/s] [内存消耗：3,628.52kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'familylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->familylist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/familylist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005687s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003267s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `family` LIMIT 1 [ RunTime:0.002507s ]
+[ sql ] [ SQL ] SELECT * FROM `family` LIMIT 0,3 [ RunTime:0.002561s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:15:56+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/studentlist.html
+[ log ] www.ryaonet.cn/admin/index/studentlist.html [运行时间：0.058077s][吞吐率：17.22req/s] [内存消耗：3,627.05kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'studentlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->studentlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/studentlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005342s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.003339s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1 [ RunTime:0.002324s ]
+[ sql ] [ SQL ] SELECT * FROM `student` LIMIT 0,3 [ RunTime:0.002351s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:15:57+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/ablumnlist.html
+[ log ] www.ryaonet.cn/admin/index/ablumnlist.html [运行时间：0.061953s][吞吐率：16.14req/s] [内存消耗：3,690.58kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'ablumnlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->ablumnlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/ablumnlist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005487s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ablumn` [ RunTime:0.003327s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ablumn` LIMIT 1 [ RunTime:0.002437s ]
+[ sql ] [ SQL ] SELECT * FROM `ablumn` LIMIT 0,3 [ RunTime:0.002510s ]
+[ error ] [8]未定义数组索引: abname[/data/home/bxu2713310775/htdocs/runtime/temp/f637aac68a515549efb954e2339bb2de.php:78]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:15:58+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/photo_grouplist.html
+[ log ] www.ryaonet.cn/admin/index/photo_grouplist.html [运行时间：0.060873s][吞吐率：16.43req/s] [内存消耗：3,623.27kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'photo_grouplist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->photo_grouplist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/photo_grouplist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006059s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `photo_group` [ RunTime:0.003267s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `photo_group` LIMIT 1 [ RunTime:0.002599s ]
+[ sql ] [ SQL ] SELECT * FROM `photo_group` LIMIT 0,3 [ RunTime:0.002579s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:17:30+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/ablumnlist.html
+[ log ] www.ryaonet.cn/admin/index/ablumnlist.html [运行时间：0.060436s][吞吐率：16.55req/s] [内存消耗：3,690.58kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'ablumnlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->ablumnlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/ablumnlist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005538s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ablumn` [ RunTime:0.002988s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ablumn` LIMIT 1 [ RunTime:0.002406s ]
+[ sql ] [ SQL ] SELECT * FROM `ablumn` LIMIT 0,3 [ RunTime:0.002282s ]
+[ error ] [8]未定义数组索引: abname[/data/home/bxu2713310775/htdocs/runtime/temp/f637aac68a515549efb954e2339bb2de.php:78]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:19:56+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/teacherlist.html
+[ log ] www.ryaonet.cn/admin/index/teacherlist.html [运行时间：0.059774s][吞吐率：16.73req/s] [内存消耗：3,629.73kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'teacherlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->teacherlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/teacherlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005524s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003398s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1 [ RunTime:0.002227s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` LIMIT 0,3 [ RunTime:0.002250s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:19:58+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/addteacher.html
+[ log ] www.ryaonet.cn/admin/index/addteacher.html [运行时间：0.035874s][吞吐率：27.88req/s] [内存消耗：2,764.69kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'addteacher',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/teacherlist.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->addteacher[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/addteacher.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T20:20:02+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/teacherlist.html
+[ log ] www.ryaonet.cn/admin/index/teacherlist.html [运行时间：0.056826s][吞吐率：17.60req/s] [内存消耗：3,629.73kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'teacherlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->teacherlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/teacherlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005386s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003157s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1 [ RunTime:0.002380s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` LIMIT 0,3 [ RunTime:0.002392s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:20:04+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/upteacher/id/1.html
+[ log ] www.ryaonet.cn/admin/index/upteacher/id/1.html [运行时间：0.064221s][吞吐率：15.57req/s] [内存消耗：3,684.41kb] [文件加载：56]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'upteacher',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/teacherlist.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->upteacher[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/upteacher.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005615s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.011560s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002525s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:20:05+08:00 ] 60.205.45.246 219.146.198.25 GET /Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg
+[ log ] www.ryaonet.cn/Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg [运行时间：0.023901s][吞吐率：41.84req/s] [内存消耗：1,843.04kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Uploads',
+    1 => '20170605',
+    2 => 'c583fef34424431978b54c75a1c8d494.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/upteacher/id/1.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T20:20:18+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/recordlist.html
+[ log ] www.ryaonet.cn/admin/index/recordlist.html [运行时间：0.057649s][吞吐率：17.35req/s] [内存消耗：3,624.91kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'recordlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->recordlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/recordlist.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005595s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `record` [ RunTime:0.002904s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `record` LIMIT 1 [ RunTime:0.002195s ]
+[ sql ] [ SQL ] SELECT * FROM `record` LIMIT 0,3 [ RunTime:0.002459s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T20:20:21+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/index/addrecord.html
+[ log ] www.ryaonet.cn/admin/index/addrecord.html [运行时间：0.033844s][吞吐率：29.55req/s] [内存消耗：2,758.06kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'addrecord',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=51e9rfi9mmls5nehikk6n2ios4',
+  'host' => 'www.ryaonet.cn',
+  'referer' => 'http://www.ryaonet.cn/admin/index/recordlist.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->addrecord[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/addrecord.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:02:47+08:00 ] 60.205.45.246 219.146.198.25 GET /
+[ log ] www.ryaonet.cn/ [运行时间：0.030403s][吞吐率：32.89req/s] [内存消耗：2,579.16kb] [文件加载：48]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:02:47+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/login/login.html
+[ log ] www.ryaonet.cn/admin/login/login.html [运行时间：0.029145s][吞吐率：34.31req/s] [内存消耗：2,265.20kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=farsq8rrtsp306to3ufl7gibn5',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:02:54+08:00 ] 60.205.45.246 219.146.198.25 GET /favicon.ico
+[ log ] www.ryaonet.cn/favicon.ico [运行时间：0.026232s][吞吐率：38.12req/s] [内存消耗：1,841.59kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=farsq8rrtsp306to3ufl7gibn5',
+  'host' => 'www.ryaonet.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:02:57+08:00 ] 60.205.45.246 219.146.198.25 GET /
+[ log ] www.ryaonet.cn/ [运行时间：0.031049s][吞吐率：32.21req/s] [内存消耗：2,579.41kb] [文件加载：48]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=farsq8rrtsp306to3ufl7gibn5',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:02:57+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/login/login.html
+[ log ] www.ryaonet.cn/admin/login/login.html [运行时间：0.029953s][吞吐率：33.39req/s] [内存消耗：2,265.20kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=farsq8rrtsp306to3ufl7gibn5',
+  'host' => 'www.ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:28:38+08:00 ] 60.205.45.246 219.146.198.25 GET /
+[ log ] ryaonet.cn/ [运行时间：0.031709s][吞吐率：31.54req/s] [内存消耗：2,579.73kb] [文件加载：48]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'host' => 'ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:28:38+08:00 ] 60.205.45.246 219.146.198.25 GET /admin/login/login.html
+[ log ] ryaonet.cn/admin/login/login.html [运行时间：0.028983s][吞吐率：34.50req/s] [内存消耗：2,266.88kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=th3bt6sbe2eereekos0epftig6',
+  'dnt' => '1',
+  'host' => 'ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:39:43+08:00 ] 60.205.45.246 112.224.20.63 GET /
+[ log ] ryaonet.cn/ [运行时间：0.031143s][吞吐率：32.11req/s] [内存消耗：2,579.96kb] [文件加载：48]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=th3bt6sbe2eereekos0epftig6',
+  'dnt' => '1',
+  'host' => 'ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:39:43+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/login/login.html
+[ log ] ryaonet.cn/admin/login/login.html [运行时间：0.029775s][吞吐率：33.59req/s] [内存消耗：2,266.88kb] [文件加载：46]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=th3bt6sbe2eereekos0epftig6',
+  'dnt' => '1',
+  'host' => 'ryaonet.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:39:49+08:00 ] 60.205.45.246 112.224.20.63 POST /admin/login/do_login.html
+[ log ] ryaonet.cn/admin/login/do_login.html [运行时间：0.085067s][吞吐率：11.76req/s] [内存消耗：3,194.36kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '24',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=th3bt6sbe2eereekos0epftig6',
+  'host' => 'ryaonet.cn',
+  'origin' => 'http://ryaonet.cn',
+  'referer' => 'http://ryaonet.cn/admin/login/login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+  'truename' => '123',
+  'password' => '12',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /data/home/bxu2713310775/htdocs/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/thinkphp/tpl/dispatch_jump1.tpl [ array (
+  0 => 'truename',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039130s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.004505s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  truename="123" ) LIMIT 1 [ RunTime:0.002696s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T21:39:49+08:00 ] 60.205.45.246 112.224.20.63 GET /favicon.ico
+[ log ] ryaonet.cn/favicon.ico [运行时间：0.027457s][吞吐率：36.42req/s] [内存消耗：1,842.90kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=th3bt6sbe2eereekos0epftig6',
+  'host' => 'ryaonet.cn',
+  'referer' => 'http://ryaonet.cn/admin/login/do_login.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:39:52+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/index.html
+[ log ] ryaonet.cn/admin/index/index.html [运行时间：0.053590s][吞吐率：18.66req/s] [内存消耗：3,497.48kb] [文件加载：54]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=th3bt6sbe2eereekos0epftig6',
+  'host' => 'ryaonet.cn',
+  'referer' => 'http://ryaonet.cn/admin/login/do_login.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/index.html [ array (
+  0 => 'truename',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005374s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.003010s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE  (  id=1 ) LIMIT 1 [ RunTime:0.002299s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T21:39:52+08:00 ] 60.205.45.246 112.224.20.63 GET /Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg
+[ log ] ryaonet.cn/Uploads/20170605/c583fef34424431978b54c75a1c8d494.jpg [运行时间：0.024457s][吞吐率：40.89req/s] [内存消耗：1,843.95kb] [文件加载：40]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Uploads',
+    1 => '20170605',
+    2 => 'c583fef34424431978b54c75a1c8d494.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=th3bt6sbe2eereekos0epftig6',
+  'host' => 'ryaonet.cn',
+  'referer' => 'http://ryaonet.cn/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-10T21:40:08+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/familylist.html
+[ log ] ryaonet.cn/admin/index/familylist.html [运行时间：0.057878s][吞吐率：17.28req/s] [内存消耗：3,628.91kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'familylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=th3bt6sbe2eereekos0epftig6',
+  'host' => 'ryaonet.cn',
+  'referer' => 'http://ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->familylist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/familylist.html [ array (
+  0 => 'page',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005640s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `family` [ RunTime:0.003324s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `family` LIMIT 1 [ RunTime:0.002532s ]
+[ sql ] [ SQL ] SELECT * FROM `family` LIMIT 0,3 [ RunTime:0.002571s ]
+
+---------------------------------------------------------------
+[ 2017-07-10T21:40:09+08:00 ] 60.205.45.246 112.224.20.63 GET /admin/index/studentlist.html
+[ log ] ryaonet.cn/admin/index/studentlist.html [运行时间：0.055063s][吞吐率：18.16req/s] [内存消耗：3,627.59kb] [文件加载：57]
+[ info ] [ LANG ] /data/home/bxu2713310775/htdocs/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'studentlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=th3bt6sbe2eereekos0epftig6',
+  'host' => 'ryaonet.cn',
+  'referer' => 'http://ryaonet.cn/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Letv X500 Build/DBXCNOP5902605181S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'x-requested-with' => 'mark.via',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->studentlist[ /data/home/bxu2713310775/htdocs/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/home/bxu2713310775/htdocs/application/admin/view/index/studentlist.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005307s ] mysql:dbname=bdm290812320_db;host=bdm290812320.my3w.com;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.003033s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1 [ RunTime:0.002314s ]
+[ sql ] [ SQL ] SELECT * FROM `student` LIMIT 0,3 [ RunTime:0.002238s ]
+
+---------------------------------------------------------------

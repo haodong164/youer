@@ -1,0 +1,150 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html>
+
+{include file="Public/head"}
+
+
+
+
+
+
+
+
+
+<div class="tpl-portlet-components">
+    <div class="portlet-title">
+        <div class="caption font-green bold">
+            <span class="am-icon-code"></span> 表单
+        </div>
+        <div class="tpl-portlet-input tpl-fz-ml">
+            <div class="portlet-input input-small input-inline">
+                <div class="input-icon right">
+                    <i class="am-icon-search"></i>
+                    <input type="text" class="form-control form-control-solid" placeholder="搜索..."> </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="tpl-block ">
+
+        <div class="am-g tpl-amazeui-form">
+
+
+            <div class="am-u-sm-12 am-u-md-9">
+                <form action="{:url('Index/do_up_photo_group')}" method="post" class="am-form am-form-horizontal">
+                    <div class="am-form-group">
+                        <label for="rule_en_name" class="am-u-sm-3 am-form-label">相册名字/ Name</label>
+                        <div class="am-u-sm-9">
+                            <input type="hidden" name="id" value="{$info.id}">
+                            <input type="text" name="title" id="rule_en_name" value="{$info.title}" placeholder="相册名字 / Name">
+                            <span id="ergouzi">检查</span>
+                            <small id="showenmsg"></small>
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label  class="am-u-sm-3 am-form-label">上传者ID / Id</label>
+                        <div class="am-u-sm-9">
+                            <select name="tid">
+                                <option value="0">请选择</option>
+                                {volist id="vo" name="list"}
+                                <option {if condition="$info.tid eq $vo.id"} selected="selected"{/if} value="{$vo.id}">{$vo.truename}</option>
+                                {/volist}
+
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="am-form-group">
+                        <div class="am-u-sm-9 am-u-sm-push-3">
+                            <button type="submit" class="am-btn am-btn-primary">保存修改</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{include file="Public/foot"}
+<script type="text/javascript">
+    $('#ergouzi').click(function(){
+        var Enname=$('#rule_en_name').val();
+        if(Enname=='')
+        {
+            $('#showenmsg').html('名称不可用');
+            $('#showenmsg').css('color','red');
+            $('.am-btn-primary').attr('disabled',true);
+            return false;
+        }
+        $.ajax({
+            url:"{:url('Index/checkenname')}",
+            type:"post",
+            data:{names:Enname},
+            success:function(data){
+                $('#showenmsg').html(data.msg);
+                if(data.status)
+                {
+                    $('#showenmsg').css('color','red');
+                    $('.am-btn-primary').attr('disabled',true);
+                }
+                else{
+                    $('#showenmsg').css('color','green');
+                    $('.am-btn-primary').attr('disabled',false);
+                }
+            }
+        });
+    });
+    $('#sangouzi').click(function(){
+        var zhname=$('#rule_zh_name').val();
+        if(zhname=='')
+        {
+            $('#showzhmsg').html('名称不可用');
+            $('#showzhmsg').css('color','red');
+            $('.am-btn-primary').attr('disabled',true);
+            return false;
+        }
+        $.ajax({
+            url:"{:url('Index/checkzhname')}",
+            type:"post",
+            data:{names:zhname},
+            success:function(data){
+                $('#showzhmsg').html(data.msg);
+                if(data.status)
+                {
+                    $('#showzhmsg').css('color','red');
+                    $('.am-btn-primary').attr('disabled',true);
+                }
+                else{
+                    $('#showzhmsg').css('color','green');
+                    $('.am-btn-primary').attr('disabled',false);
+                }
+            }
+        });
+    });
+</script>
+</body>
+
+</html>

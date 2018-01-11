@@ -1,0 +1,1063 @@
+import React, {
+  Component
+} from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  TextInput,
+  ScrollView,
+  TouchableOpacity,
+  ListView,
+  Dimensions,
+} from 'react-native';
+import fabu1 from './fabu1';
+import Carousel from 'react-native-carousel';
+import nav from './nav'
+import {Navigator} from 'react-native-deprecated-custom-components';
+import TabNavigator from 'react-native-tab-navigator'
+import NetUtil from './NetUtil';
+import hudong from './hudong';
+import {PullList} from 'react-native-pull';
+var {
+  width,
+  height
+} = Dimensions.get('window')
+export default class hudongnei extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = ({
+      userinfo: [],
+      id: this.props.id,
+      dataSource:new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2}),
+       selectedTab: 'Event'
+    });
+  }
+componentWillMount(){
+	storage.load({
+			key: 'static',
+			autoSync: true,
+			syncInBackground: true,
+			syncParams: {
+			extraFetchOptions: {
+			},
+			someFlag: true,
+			},
+		  }).then(ret => {
+			 	this.setState({
+					telphone:ret.telphone,
+			 		userid:ret.userid,
+			 		imageurl:ret.imageurl,
+					identity:ret.identity,
+			 	});
+				let _this=this;
+		let url="http://www.ryaonet.cn/index.php/api/Api/hudongnei";
+		let parms={userid:this.state.id};
+		NetUtil.postJSON(url,parms,function(result){
+			_this.setState({
+				dataSource: _this.state.dataSource.cloneWithRows(result),
+      })
+		});
+		  }).catch(err => {
+			 
+		  })
+}	
+
+  houtui = () => {
+    this.props.navigator.push({
+      name: 'hudong',
+      component: hudong
+    });
+  }
+  pingonChange(val){
+    if(val.length!=0){
+      this.setState({
+        pingText:true,
+      })
+    }else{
+      this.setState({
+        pingText:false,
+      })
+    }
+    this.intro=val;
+  }
+  pingonFocus(){
+    this.setState({
+      pingsub:true,
+    })
+  }
+  pingonBlur(){
+    this.setState({
+      pingsub:false,
+    })
+  }
+  pingsub=()=>{
+    succs = (res) => {
+      if (res == 'succ') {
+        	storage.load({
+            key: 'static',
+            autoSync: true,
+            syncInBackground: true,
+            syncParams: {
+            extraFetchOptions: {
+            },
+            someFlag: true,
+            },
+            }).then(ret => {
+              this.setState({
+                telphone:ret.telphone,
+                userid:ret.userid,
+                imageurl:ret.imageurl,
+                identity:ret.identity,
+              });
+              let _this=this;
+              let url="http://www.ryaonet.cn/index.php/api/Api/hudongnei";
+              let parms={userid:this.state.id};
+              NetUtil.postJSON(url,parms,function(result){
+                _this.setState({
+                  dataSource: _this.state.dataSource.cloneWithRows(result),
+                })
+              });
+            })
+            
+        }
+       if (res == 'fail') {
+         alert('发表失败');
+        }
+        if (res == 'kong') {
+          alert('内容不能为空');
+        }
+
+      };
+      let url = 'http://www.ryaonet.cn/index.php/api/Api/fabiaopinglu';
+      let params = {
+        'nums': this.intro,
+        'tel': this.state.telphone,
+        'id': this.state.id,
+      };
+      let rest = NetUtil.postJSON(url, params, function(result) {
+        this.succs(result);
+      })
+    }
+  render() {
+    return (
+      <View style={{flex: 1,}}>
+      <View style={styles.container}>
+        	<View style={{flexDirection: 'row',paddingLeft: 10,height: 50,backgroundColor: '#3fdab8',alignItems: 'center'}}>
+			
+					<TouchableOpacity style={{width:'20%',}} onPress={this.houtui}>
+						<Image source={require('../img/hotui.png')} style={{height: 23,width: 23,resizeMode: 'stretch',}}/>
+					</TouchableOpacity>
+		        	<View style={{alignItems:'center',width:'60%',}}>
+		        		<Text style={{color:'#fff',fontSize:20,fontWeight:'bold',}}>留言</Text>
+		        	</View>
+				
+
+		        </View>
+      <View style={{height:null}}>
+      <ListView
+				onEndReachedThreshold={1}
+				dataSource={this.state.dataSource}
+				renderRow={(rowData,senctionID,rowID) =>
+          <View style={rowID==0?null:{display:'none'}}>
+            {/*标题 作者 时间*/}
+            <View style={{width:width,alignItems:'center'}}>
+              <Text style={{marginTop:10,fontSize:18,color:'#5B5B5B'}}>{rowData.title}</Text>
+              <Text style={{fontSize:13,marginTop:3,marginBottom:4,color:'#7B7B7B'}}>作者:{rowData.name} 时间：{rowData.time}</Text>
+            </View>
+            {/*内容*/}
+            <View style={{marginLeft:7,marginRight:7,}}>
+              <Text style={{color:'#3C3C3C',fontSize:15,paddingBottom:20}}>{rowData.content}</Text>
+            </View>
+            {/*图片*/}
+            {/* <View style={rowData.photo==""?{display:'none'}:null}> */}
+              <View style={{width:'90%',marginLeft:'5%'}}>
+              <Image source={{uri:rowData.photo}} style={{width:'100%',height:150}}/>
+            </View>
+          </View>
+        }
+        />
+        </View>
+
+
+            <View style={{height:'90%'}}>
+              <Text style={{marginTop:10,borderColor:'#c0c0c0'}}>  全部评论</Text>
+            
+           {/*全部留言*/}
+    <PullList 
+				onEndReachedThreshold={10}
+				dataSource={this.state.dataSource}
+				renderRow={(rowData) =>
+              <View style={{marginTop:10,borderBottomWidth:1, borderColor:'#dcdcdc'}}>
+                <View style={rowData.photos==''?{display:'none'}:{height:40,flexDirection:'row',}}>
+                  <Image source={{uri:rowData.photos}} style={{width: 30, height: 30,marginTop:10,marginLeft:15,borderRadius:25}} />
+                  <Text style={{marginTop:16,color:'#005AB5', fontSize:13,height:20, marginLeft:10,}}>{rowData.nickname}</Text> 
+                </View>
+                <View style={{flex:1,marginLeft:30,marginRight:20,marginBottom:10}}>
+                  <Text style={{fontSize:12,marginTop:5,flex:3,alignItems:'center'}}>{rowData.neirong}</Text>
+                  <Text style={{fontSize:12,color:'#999',textAlign:'right'}}>{rowData.pubdate}</Text>
+                </View>
+              </View>
+        }
+        />
+      </View>
+      </View>
+        <View style={{ flexDirection: 'row',position:'absolute',bottom:0,backgroundColor:'#F5F5F5',width:'100%'}}>
+            <TouchableOpacity onPress={()=>this.pingsub()} disabled={this.state.pingText?false:true}  style={{ width:'100%',flexDirection:'row'}}  activeOpacity={1}>
+
+              <TextInput onFocus={()=>this.pingonFocus()} style={this.state.pingsub?styles.pingsubtrue:styles.pingsubfalse} onChangeText={(text)=>this.pingonChange(text)} onBlur={()=>this.pingonBlur()} underlineColorAndroid="transparent" placeholderTextColor='#B4B4B4' placeholder={'说点什么吧...'} multiline={true} />
+                
+                <Text style={this.state.pingsub?this.state.pingText?styles.pingTexttrue:styles.pingTextfalse:{display:'none'}}>发送</Text>
+            </TouchableOpacity>
+        </View>
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+  },
+  tou: {
+    width: '100%',
+    flexDirection: 'row', // 水平排布
+    justifyContent: 'space-between',
+    height: 50,
+    backgroundColor: '#3fdab8',
+  },
+  houtui: {
+    marginLeft: 10,
+    marginTop: 15,
+    height: 23,
+    width: 23,
+    resizeMode: 'stretch',
+  },
+  add: {
+    height: 35,
+    width: 40,
+    marginTop: 10,
+  },
+  shuru: {
+    elevation: 3,
+    height: 230,
+    borderWidth: 1,
+    borderColor: '#dcdcdc',
+    backgroundColor: '#fff',
+    marginTop: 10,
+  },
+  pingsubfalse:{
+    backgroundColor:'#e7e7e7',
+    borderRadius:1,
+    paddingBottom:6,
+    borderWidth:1,
+    width:'100%',
+    height:40,
+    borderColor:'#e0e0e0',
+    paddingLeft:10,
+  },
+  pingsubtrue:{
+    backgroundColor:'#fff',
+    borderRadius:8,
+    paddingBottom:6,
+    borderWidth:1,
+    width:'79%',
+    height:35,
+    borderColor:'#e0e0e0',
+    paddingLeft:10,
+  },
+  pingTexttrue:{
+    width:'16%',
+    borderColor:'#3fdab8',
+    borderWidth:1,
+    backgroundColor:'#3fdab8',
+    marginLeft:'2%',
+    borderRadius:4,
+    textAlign:'center',
+    lineHeight:27,
+    color:'#fff'
+  },
+  pingTextfalse:{
+    width:'16%',
+    borderColor:'#DFE0E2',
+    borderWidth:1,
+    backgroundColor:'#FEFEFE',
+    marginLeft:'2%',
+    borderRadius:4,
+    textAlign:'center',
+    lineHeight:27,
+  },
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import React, {
+  Component
+} from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  TextInput,
+  ScrollView,
+  TouchableOpacity,
+  ListView,
+  Dimensions,
+} from 'react-native';
+import fabu1 from './fabu1';
+import Carousel from 'react-native-carousel';
+import nav from './nav'
+import {Navigator} from 'react-native-deprecated-custom-components';
+import TabNavigator from 'react-native-tab-navigator'
+import NetUtil from './NetUtil';
+import hudong from './hudong';
+import {PullList} from 'react-native-pull';
+var {
+  width,
+  height
+} = Dimensions.get('window')
+export default class hudongnei extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = ({
+      userinfo: [],
+      id: this.props.id,
+      dataSource:new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2}),
+       selectedTab: 'Event'
+    });
+  }
+componentWillMount(){
+	storage.load({
+			key: 'static',
+			autoSync: true,
+			syncInBackground: true,
+			syncParams: {
+			extraFetchOptions: {
+			},
+			someFlag: true,
+			},
+		  }).then(ret => {
+			 	this.setState({
+					telphone:ret.telphone,
+			 		userid:ret.userid,
+			 		imageurl:ret.imageurl,
+					identity:ret.identity,
+			 	});
+				let _this=this;
+		let url="http://www.ryaonet.cn/index.php/api/Api/hudongnei";
+		let parms={userid:this.state.id};
+		NetUtil.postJSON(url,parms,function(result){
+			_this.setState({
+				dataSource: _this.state.dataSource.cloneWithRows(result),
+      })
+		});
+		  }).catch(err => {
+			 
+		  })
+}	
+
+  houtui = () => {
+    this.props.navigator.push({
+      name: 'hudong',
+      component: hudong
+    });
+  }
+  render() {
+    return (
+      <View style={{flex: 1,}}>
+          <TabNavigator>
+                    <TabNavigator.Item
+                        //设置选中的位置
+                        selected={this.state.selectedTab === 'Event'}
+                        //标题
+                        title="详情"
+                        //标题样式
+                         titleStyle={{fontSize:20,marginBottom:10}}
+                        //选中时标题文字样式
+                        //图标
+                        // renderIcon={() => <Image  style={[styles.icon,{tintColor:'#c0c0c0'}]} source={require("../img/0.png")} />}
+                       onPress={() => this.setState({ selectedTab: 'Event' })}>
+      
+      <View style={styles.container}>
+        	<View style={{flexDirection: 'row',paddingLeft: 10,height: 50,backgroundColor: '#3fdab8',alignItems: 'center'}}>
+			
+					<TouchableOpacity style={{width:'20%',}} onPress={this.houtui}>
+						<Image source={require('../img/hotui.png')} style={{height: 23,width: 23,resizeMode: 'stretch',}}/>
+					</TouchableOpacity>
+		        	<View style={{alignItems:'center',width:'60%',}}>
+		        		<Text style={{color:'#fff',fontSize:20,fontWeight:'bold',}}>留言</Text>
+		        	</View>
+				
+
+		        </View>
+      <View style={{height:null}}>
+      <ListView
+				onEndReachedThreshold={1}
+				dataSource={this.state.dataSource}
+				renderRow={(rowData,senctionID,rowID) =>
+          <View style={rowID==0?null:{display:'none'}}>
+            {/*标题 作者 时间*/}
+            <View style={{width:width,alignItems:'center'}}>
+              <Text style={{marginTop:10,fontSize:18,color:'#5B5B5B'}}>{rowData.title}</Text>
+              <Text style={{fontSize:13,marginTop:3,marginBottom:4,color:'#7B7B7B'}}>作者:{rowData.name} 时间：{rowData.time}</Text>
+            </View>
+            {/*内容*/}
+            <View style={{marginLeft:7,marginRight:7,}}>
+              <Text style={{color:'#3C3C3C',fontSize:15,paddingBottom:20}}>{rowData.content}</Text>
+            </View>
+            {/*图片*/}
+            {/* <View style={rowData.photo==""?{display:'none'}:null}> */}
+              <View style={{width:'90%',marginLeft:'5%'}}>
+              <Image source={{uri:rowData.photo}} style={{width:'100%',height:150}}/>
+            </View>
+          </View>
+        }
+        />
+        </View>
+
+
+            <View style={{height:'90%'}}>
+              <Text style={{marginTop:10,borderColor:'#c0c0c0'}}>  全部评论</Text>
+            
+           {/*全部留言*/}
+    <PullList 
+				onEndReachedThreshold={10}
+				dataSource={this.state.dataSource}
+				renderRow={(rowData) =>
+              <View style={{marginTop:10,borderBottomWidth:1, borderColor:'#dcdcdc'}}>
+                <View style={rowData.photos==''?{display:'none'}:{height:40,flexDirection:'row',}}>
+                  <Image source={{uri:rowData.photos}} style={{width: 30, height: 30,marginTop:10,marginLeft:15,borderRadius:25}} />
+                  <Text style={{marginTop:16,color:'#005AB5', fontSize:13,height:20, marginLeft:10,}}>{rowData.nickname}</Text> 
+                </View>
+                <View style={{flex:1,marginLeft:30,marginRight:20,marginBottom:10}}>
+                  <Text style={{fontSize:12,marginTop:5,flex:3,alignItems:'center'}}>{rowData.neirong}</Text>
+                  <Text style={{fontSize:12,color:'#999',textAlign:'right'}}>{rowData.pubdate}</Text>
+                </View>
+              </View>
+        }
+        />
+      </View>
+      </View>
+     
+     </TabNavigator.Item>
+
+     <TabNavigator.Item
+        selected={this.state.selectedTab === 'Log'}
+        title="评论"
+        titleStyle={{fontSize:20,marginBottom:10}}
+        onPress={() => this.setState({ selectedTab: 'Log' })}>
+        <View style={styles.container}>
+          <View style={{height:50,flexDirection:'row',backgroundColor: '#3fdab8',}}>
+            <View style={{flexDirection:'row',alignItems:'center',paddingLeft:10}}>
+              <TouchableOpacity style={{width:'20%'}} onPress={this.houtui}>
+                <Image source={require('../img/hotui.png')} style={{width: 23, height: 23,}} />
+              </TouchableOpacity>
+              <View style={{width:'80%'}}>
+                  <Text onPress={this.fabu} style={{textAlign:'right',fontSize:20,color:'#fff',marginRight:10}}>发表</Text>
+              </View>
+            </View>
+          </View>
+          <TextInput
+             style={styles.shuru}
+              textAlignVertical='top'
+              placeholder="说点什么吧..."
+              underlineColorAndroid="transparent"
+              onChangeText={(text) => {this.nums=text}}
+            />
+
+      </View>
+
+                    </TabNavigator.Item>
+      </TabNavigator>
+      </View>
+    );
+  }
+  fabu = () => {
+    succs = (res) => {
+      if (res == 'succ') {
+        	storage.load({
+            key: 'static',
+            autoSync: true,
+            syncInBackground: true,
+            syncParams: {
+            extraFetchOptions: {
+            },
+            someFlag: true,
+            },
+            }).then(ret => {
+              this.setState({
+                telphone:ret.telphone,
+                userid:ret.userid,
+                imageurl:ret.imageurl,
+                identity:ret.identity,
+              });
+              let _this=this;
+              let url="http://www.ryaonet.cn/index.php/api/Api/hudongnei";
+              let parms={userid:this.state.id};
+              NetUtil.postJSON(url,parms,function(result){
+                _this.setState({
+                  dataSource: _this.state.dataSource.cloneWithRows(result),
+                })
+              });
+            })
+            
+        this.setState({ selectedTab: 'Event' });
+       
+      }
+      if (res == 'fail') {
+        alert('发表失败');
+      }
+      if (res == 'kong') {
+        alert('内容不能为空');
+      }
+
+    };
+    // alert(this.state.telphone);
+    let url = 'http://www.ryaonet.cn/index.php/api/Api/fabiaopinglu';
+    let params = {
+      'nums': this.nums,
+      'tel': this.state.telphone,
+      'id': this.state.id,
+    };
+    let rest = NetUtil.postJSON(url, params, function(result) {
+      this.succs(result);
+    })
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+  },
+  tou: {
+    width: '100%',
+    flexDirection: 'row', // 水平排布
+    justifyContent: 'space-between',
+    height: 50,
+    backgroundColor: '#3fdab8',
+  },
+  houtui: {
+    marginLeft: 10,
+    marginTop: 15,
+    height: 23,
+    width: 23,
+    resizeMode: 'stretch',
+  },
+  add: {
+    height: 35,
+    width: 40,
+    marginTop: 10,
+  },
+  shuru: {
+    elevation: 3,
+    height: 230,
+    borderWidth: 1,
+    borderColor: '#dcdcdc',
+    backgroundColor: '#fff',
+    marginTop: 10,
+  },
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			        <View style={styles.xiangce}>
+						{/*<TouchableOpacity onPress={this.fangda.bind(this,rowData.id)}>*/}
+						<TouchableOpacity>
+							<Image source={{uri:rowData.photos}} style={styles.tup} />
+							</TouchableOpacity>
+			        </View>
+//放大图片
+<ZoomImage
+					source={this.state.userphoto?{uri:this.state.userphoto}:{uri:'http://www.guokaiyuan.cn/upload/morentouxiang.png'}}
+					imgStyle={{width:80,height:80,borderRadius:100}}
+					style={styles.img}
+          duration={200}
+	        enableScaling={false}
+          easingFunc={Easing.ease}
+		     />
+
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native 
+
+ * @flow
+ */
+
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+  Image,
+} from 'react-native';
+import {StackNavigator, TabNavigator} from "react-navigation";
+import TuijianPage from './TuijianPage';
+import DingyuePage from './DingyuePage';
+import BiaoqianPage from './BiaoqianPage';
+
+// 注册tabs
+const Tabs = TabNavigator({
+    Tuijian: {
+        screen: TuijianPage,
+        navigationOptions: {  // 也可以写在组件的static navigationOptions内
+            tabBarLabel: '推荐',
+                //icon: ({tintColor}) => (<Image source={require('./app/images/home.png')} style={[{tintColor: tintColor},styles.icon]}/>),          
+        }
+    },
+    Dingyue: {
+        screen: DingyuePage,
+        navigationOptions: {
+            tabBarLabel: '订阅',
+               //icon: ({tintColor}) => (<Image source={require('./app/images/bill.png')} style={[{tintColor: tintColor},styles.icon]}/>),
+            
+        }
+    },
+    Biaoqian: {
+        screen: BiaoqianPage,
+        navigationOptions: {
+            tabBarLabel: '标签',
+                //icon: ({tintColor}) => (<Image source={require('./app/images/me.png')} style={[{tintColor: tintColor},styles.icon]}/>),
+            
+        }
+    },
+  },{
+      tabBarOptions:{
+        style:{
+          backgroundColor:'#88d5ab',
+        },
+      },
+    },
+);
+
+export default class FirstPage extends Component {
+
+  render() {
+    return (
+      <View style={styles.body}>
+        <View style={styles.title}>
+          <View style={styles.top}>
+          <Image style={{width:'8%',marginLeft:'12%',marginTop:'3%'}} source={require('./image/san.png')}/>
+        <Text style={{width:'55%',fontSize:20,color:'#fff',textAlign: 'center',height:40,lineHeight:40
+}}>
+程序员头条
+        </Text>
+          <Image style={{width:'8%',marginLeft:'5%',marginTop:'3%'}} source={require('./image/sou.png')}/>
+          </View>
+     <Tabs/>
+        </View>
+      </View>           
+    );
+  }
+  
+}
+
+const styles = StyleSheet.create({
+body:{
+  width:'100%',
+  height:'100%',
+
+},
+title:{
+  width:'100%',
+  height:'100%',
+  
+},
+top:{
+  width:'100%',
+  height:'8%',
+  backgroundColor:'#88d5ab',
+  flexDirection:'row',
+}
+
+});
+
+
+
+//日程
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
+{/*
+import React,{Component} from 'react';
+import {AppRegistry,
+		StyleSheet,
+		Text,
+		View,
+		TouchableOpacity,
+		Image,
+		ScrollView,
+		ListView,
+		}from 'react-native';
+import {Navigator} from 'react-native-deprecated-custom-components';
+import ScrollableTabView from 'react-native-scrollable-tab-view';
+import DefaultTabBar from 'react-native-scrollable-tab-view/DefaultTabBar';
+import NetUtil from './NetUtil';
+import {PullList} from 'react-native-pull';
+var Dimensions = require('Dimensions');
+var ScreenWidth = Dimensions.get('window').width;
+export default class richeng extends Component {
+	constructor(props) {
+		super(props);
+		
+		this.state=({
+			userinfo:[],
+			id:this.props.wid,
+			ri: '#1ebba6',
+			dataSource:new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
+		});
+	}
+	componentWillMount(){
+		let _this=this;
+		let url="http://www.ryaonet.cn/index.php/api/Api/richeng";
+		let parms={userid:1};
+		NetUtil.postJSON(url,parms,function(result){
+			 
+			_this.setState({
+				userinfo:result,
+				dataSource:_this.state.dataSource.cloneWithRows(result),
+			});
+			_this.forceUpdate();
+		});
+	}
+
+	houtui = () => {
+		this.props.navigator.pop()
+	}
+	zhou=(id)=>{
+		this.forceUpdate();
+	}
+	zhouyi=(id)=>{
+		// this.forceUpdate();
+		// alert(id);
+		let _this=this;
+		let url="http://www.ryaonet.cn/index.php/api/Api/richeng";
+		let parms={userid:id};
+		NetUtil.postJSON(url,parms,function(result){
+			_this.setState({
+				dataSource:_this.state.dataSource.cloneWithRows(result),
+				
+			});
+			_this.forceUpdate();
+			
+		});
+		
+		
+	}
+
+
+	render() {
+		return (
+			<View style={styles.container}>
+        {/*头部代码*/}
+            <View style={styles.tou}>
+              <TouchableOpacity onPress={this.houtui}>
+                <Image  source={require('../img/hotui.png')} style={styles.houtui} onPress={this.houtui}/>
+              </TouchableOpacity>
+              <View style={{alignItems:'center',flex:1,}}>
+                  <Text style={{color:'#fff',fontSize:18,}}>课程表 </Text>
+              </View>
+            </View>
+         <ScrollableTabView
+                      style={styles.containers}
+					  initialPage={1}
+                      renderTabBar={() => <DefaultTabBar />}
+                      tabBarUnderlineStyle={styles.lineStyle}
+                      tabBarActiveTextColor='#1ebba6'>
+						
+						{// <TouchableOpacity onPress={this.zhouyi.bind(this,1)} tabLabel='周一'>
+						// </TouchableOpacity>
+						}
+<View style={styles.textStyle} onPress={this.zhouyi.bind(this,1)} tabLabel='周一'>
+	<View style={{height:'100%',backgroundColor:'#EBEBEB'}}>
+	   <PullList
+			style={{flex:1,backgroundColor:'#EBEBEB'}}
+			dataSource={this.state.dataSource}
+			renderRow={(rowData) => 
+              <View style={{marginLeft:20,marginRight:10,backgroundColor:'#EBEBEB',flex:1,marginTop:8,}}>
+                <View style={{marginTop:10,backgroundColor:'#fff',marginLeft:10,marginRight:10,flex:1,}}>
+
+                  <View style={{marginTop:10,borderBottomWidth:1,height:80,marginLeft:20,marginRight:5,flexDirection:'row'}}>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.title}</Text>
+                    </View>
+					<View style={{height:69,}}>
+			<Text style={{marginTop:30,marginLeft:'30%'}}>{rowData.starttime}-{rowData.endtime}</Text>
+					</View>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.content}</Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+			}
+		/>
+	</View>
+</View>
+		
+		
+<View style={styles.textStyle} onPress={this.zhouyi.bind(this,2)} tabLabel='周二'>
+	<View style={{height:'100%',backgroundColor:'#EBEBEB'}}>
+	   <PullList
+			style={{flex:1,backgroundColor:'#EBEBEB'}}
+			dataSource={this.state.dataSource}
+			renderRow={(rowData) => 
+              <View style={{marginLeft:20,marginRight:10,backgroundColor:'#EBEBEB',flex:1,marginTop:8,}}>
+                <View style={{marginTop:10,backgroundColor:'#fff',marginLeft:10,marginRight:10,flex:1,}}>
+
+                  <View style={{marginTop:10,borderBottomWidth:1,height:80,marginLeft:20,marginRight:5,flexDirection:'row'}}>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.title}</Text>
+                    </View>
+					<View style={{height:69,}}>
+			<Text style={{marginTop:30,marginLeft:'30%'}}>{rowData.starttime}-{rowData.endtime}</Text>
+					</View>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.content}</Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+			}
+		/>
+	</View>
+</View>
+
+
+<View style={styles.textStyle} onPress={this.zhouyi.bind(this,3)} tabLabel='周三'>
+	<View style={{height:'100%',backgroundColor:'#EBEBEB'}}>
+	   <PullList
+			style={{flex:1,backgroundColor:'#EBEBEB'}}
+			dataSource={this.state.dataSource}
+			renderRow={(rowData) => 
+              <View style={{marginLeft:20,marginRight:10,backgroundColor:'#EBEBEB',flex:1,marginTop:8,}}>
+                <View style={{marginTop:10,backgroundColor:'#fff',marginLeft:10,marginRight:10,flex:1,}}>
+
+                  <View style={{marginTop:10,borderBottomWidth:1,height:80,marginLeft:20,marginRight:5,flexDirection:'row'}}>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.title}</Text>
+                    </View>
+					<View style={{height:69,}}>
+			<Text style={{marginTop:30,marginLeft:'30%'}}>{rowData.starttime}-{rowData.endtime}</Text>
+					</View>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.content}</Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+			}
+		/>
+	</View>
+</View>
+		
+<View style={styles.textStyle} onPress={this.zhouyi.bind(this,4)} tabLabel='周四'>
+	<View style={{height:'100%',backgroundColor:'#EBEBEB'}}>
+	   <PullList
+			style={{flex:1,backgroundColor:'#EBEBEB'}}
+			dataSource={this.state.dataSource}
+			renderRow={(rowData) => 
+              <View style={{marginLeft:20,marginRight:10,backgroundColor:'#EBEBEB',flex:1,marginTop:8,}}>
+                <View style={{marginTop:10,backgroundColor:'#fff',marginLeft:10,marginRight:10,flex:1,}}>
+
+                  <View style={{marginTop:10,borderBottomWidth:1,height:80,marginLeft:20,marginRight:5,flexDirection:'row'}}>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.title}</Text>
+                    </View>
+					<View style={{height:69,}}>
+			<Text style={{marginTop:30,marginLeft:'30%'}}>{rowData.starttime}-{rowData.endtime}</Text>
+					</View>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.content}</Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+			}
+		/>
+	</View>
+</View>
+		
+		
+<View style={styles.textStyle} onPress={this.zhouyi.bind(this,5)} tabLabel='周五'>
+	<View style={{height:'100%',backgroundColor:'#EBEBEB'}}>
+	   <PullList
+			style={{flex:1,backgroundColor:'#EBEBEB'}}
+			dataSource={this.state.dataSource}
+			renderRow={(rowData) => 
+              <View style={{marginLeft:20,marginRight:10,backgroundColor:'#EBEBEB',flex:1,marginTop:8,}}>
+                <View style={{marginTop:10,backgroundColor:'#fff',marginLeft:10,marginRight:10,flex:1,}}>
+
+                  <View style={{marginTop:10,borderBottomWidth:1,height:80,marginLeft:20,marginRight:5,flexDirection:'row'}}>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.title}</Text>
+                    </View>
+					<View style={{height:69,}}>
+			<Text style={{marginTop:30,marginLeft:'30%'}}>{rowData.starttime}-{rowData.endtime}</Text>
+					</View>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.content}</Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+			}
+		/>
+	</View>
+</View>
+		
+<View style={styles.textStyle} onPress={this.zhouyi.bind(this,6)} tabLabel='周六'>
+	<View style={{height:'100%',backgroundColor:'#EBEBEB'}}>
+	   <PullList
+			style={{flex:1,backgroundColor:'#EBEBEB'}}
+			dataSource={this.state.dataSource}
+			renderRow={(rowData) => 
+              <View style={{marginLeft:20,marginRight:10,backgroundColor:'#EBEBEB',flex:1,marginTop:8,}}>
+                <View style={{marginTop:10,backgroundColor:'#fff',marginLeft:10,marginRight:10,flex:1,}}>
+
+                  <View style={{marginTop:10,borderBottomWidth:1,height:80,marginLeft:20,marginRight:5,flexDirection:'row'}}>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.title}</Text>
+                    </View>
+					<View style={{height:69,}}>
+			<Text style={{marginTop:30,marginLeft:'30%'}}>{rowData.starttime}-{rowData.endtime}</Text>
+					</View>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.content}</Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+			}
+		/>
+	</View>
+</View>
+		
+		
+<View style={styles.textStyle} onPress={this.zhouyi.bind(this,7)} tabLabel='周末'>
+	<View style={{height:'100%',backgroundColor:'#EBEBEB'}}>
+	   <PullList
+			style={{flex:1,backgroundColor:'#EBEBEB'}}
+			dataSource={this.state.dataSource}
+			renderRow={(rowData) => 
+              <View style={{marginLeft:20,marginRight:10,backgroundColor:'#EBEBEB',flex:1,marginTop:8,}}>
+                <View style={{marginTop:10,backgroundColor:'#fff',marginLeft:10,marginRight:10,flex:1,}}>
+
+                  <View style={{marginTop:10,borderBottomWidth:1,height:80,marginLeft:20,marginRight:5,flexDirection:'row'}}>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.title}</Text>
+                    </View>
+					<View style={{height:69,}}>
+			<Text style={{marginTop:30,marginLeft:'30%'}}>{rowData.starttime}-{rowData.endtime}</Text>
+					</View>
+                    <View style={{height:69,}}>
+                      <Text style={{marginTop:30,}}>{rowData.content}</Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+			}
+		/>
+	</View>
+</View>
+
+         </ScrollableTabView>
+
+      </View>
+		);
+	}
+}
+
+const styles = StyleSheet.create({
+	container: {
+		flex: 1,
+	},
+	containers: {
+		flex: 1,
+	},
+	lineStyle: {
+		width: ScreenWidth / 7,
+		height: 2,
+		backgroundColor: '#1ebba6',
+	},
+	textStyle: {
+		flex: 1,
+	},
+
+	//头部
+	tou: {
+		flexDirection: 'row', // 水平排布    
+		paddingLeft: 10,
+		height: 50,
+		paddingRight: 37,
+		backgroundColor: '#3fdab8',
+		alignItems: 'center' // 使元素垂直居中排布, 当flexDirection为column时, 为水平居中    
+	},
+	houtui: {
+		height: 23,
+		width: 23,
+		resizeMode: 'stretch',
+	},
+
+	tu: {
+		//marginLeft: 100,
+		height: 80,
+		width: 190,
+		alignItems: 'center'
+	},
+
+});*/}

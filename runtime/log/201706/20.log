@@ -1,0 +1,27 @@
+[ 2017-06-20T09:33:21+08:00 ] 127.0.0.1 127.0.0.1 GET /sc/%E8%BF%94%E5%9B%9E%E6%8C%89%E9%92%AE/
+[ log ] www.sc115.com/sc/%E8%BF%94%E5%9B%9E%E6%8C%89%E9%92%AE/ [运行时间：1.026250s][吞吐率：0.97req/s] [内存消耗：1,381.13kb] [文件加载：40]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sc',
+    1 => '返回按钮',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sc115.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'https://www.baidu.com/link?url=TxFxKsIQLq2hYDIcr1vaNd6zSyGj--nBUXxvVT1SliePv2n4aa0TSzjClsnEljgjmieYe6JDHjNsdDFv0zuuia_EyFWVrTvCfV9bJ5VnVDG&wd=&eqid=a54d471400123d7e0000000259487b53',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

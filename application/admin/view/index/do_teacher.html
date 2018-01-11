@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+{include file="Public/head"}
+
+<body>
+    
+            <div class="tpl-portlet-components">
+                <div class="portlet-title">
+                    <div class="caption font-green bold">
+                        <span class="am-icon-code"></span> 表单
+                    </div>
+                    <div class="tpl-portlet-input tpl-fz-ml">
+                        <div class="portlet-input input-small input-inline">
+                            <div class="input-icon right">
+                                <i class="am-icon-search"></i>
+                                <input type="text" class="form-control form-control-solid" placeholder="搜索..."> </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="tpl-block ">
+
+                    <div class="am-g tpl-amazeui-form">
+
+
+                        <div class="am-u-sm-12 am-u-md-9">
+                            <form class="am-form am-form-horizontal" action="{:url('Index/do_class')}" method="post">
+                                <div class="am-form-group">
+                                    <label for="user-name" class="am-u-sm-3 am-form-label">班级</label>
+                                    <div class="am-u-sm-9">
+                                        <input type="text" id="user-name" placeholder="班级" name="class_name">
+                                        <small id="showenmsg"></small>
+                                    </div>
+                                </div>
+                                <div class="am-form-group">
+                                    <label for="user-name" class="am-u-sm-3 am-form-label">教师</label>
+                                    <div class="am-u-sm-9">
+                                       <select name="tid" id="user">
+                                           <option>请选择教师</option>
+                                           {foreach item="jiaoshi" name="jiaoshi"}
+                                           <option value="{$jiaoshi.id}">{$jiaoshi.truename}</option>
+                                           {/foreach}
+                                       </select>
+                                        <small>请选择所负责的教师</small>
+                                    </div>
+                                </div>
+                                    <div class="am-u-sm-9 am-u-sm-push-3">
+                                        <button type="submit" class="am-btn am-btn-primary">保存修改</button>
+                                    </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+
+{include file="Public/foot"}
+
+
+
+
+</body>
+
+</html>

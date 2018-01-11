@@ -1,0 +1,1485 @@
+[ 2017-06-27T10:33:21+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：1.540041s][吞吐率：0.65req/s] [内存消耗：2,353.22kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '41',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '产品汪',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126761s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.228826s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='产品汪' and password='123' ) LIMIT 1 [ RunTime:0.032291s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:33:21+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：1.539580s][吞吐率：0.65req/s] [内存消耗：2,353.22kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '41',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '产品汪',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127197s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.228886s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='产品汪' and password='123' ) LIMIT 1 [ RunTime:0.032217s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:33:21+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：1.540122s][吞吐率：0.65req/s] [内存消耗：2,353.22kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '41',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '产品汪',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126842s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.229713s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='产品汪' and password='123' ) LIMIT 1 [ RunTime:0.031093s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:33:21+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：1.539950s][吞吐率：0.65req/s] [内存消耗：2,353.22kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '41',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '产品汪',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126975s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.244228s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='产品汪' and password='123' ) LIMIT 1 [ RunTime:0.015305s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:33:22+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.062341s][吞吐率：16.04req/s] [内存消耗：2,353.23kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '41',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '产品汪',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003939s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008336s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='产品汪' and password='123' ) LIMIT 1 [ RunTime:0.000764s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:33:33+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.063501s][吞吐率：15.75req/s] [内存消耗：2,353.23kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '41',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '产品汪',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005285s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009462s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='产品汪' and password='123' ) LIMIT 1 [ RunTime:0.000703s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:33:37+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.081702s][吞吐率：12.24req/s] [内存消耗：2,353.23kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '41',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '产品汪',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013065s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.011459s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='产品汪' and password='123' ) LIMIT 1 [ RunTime:0.000659s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:33:41+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.062290s][吞吐率：16.05req/s] [内存消耗：2,353.23kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '41',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '产品汪',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004834s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008453s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='产品汪' and password='123' ) LIMIT 1 [ RunTime:0.000587s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:33:57+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.069183s][吞吐率：14.45req/s] [内存消耗：2,352.59kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '29',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004684s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009614s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='' and password='' ) LIMIT 1 [ RunTime:0.001170s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:33:59+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.060776s][吞吐率：16.45req/s] [内存消耗：2,352.59kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '29',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004278s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.007896s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='' and password='' ) LIMIT 1 [ RunTime:0.000751s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:34:01+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.064615s][吞吐率：15.48req/s] [内存消耗：2,352.59kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '29',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004539s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008513s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='' and password='' ) LIMIT 1 [ RunTime:0.000711s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:34:04+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.061741s][吞吐率：16.20req/s] [内存消耗：2,352.59kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '29',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003921s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008930s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='' and password='' ) LIMIT 1 [ RunTime:0.000647s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:34:05+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.061900s][吞吐率：16.16req/s] [内存消耗：2,352.59kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '29',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004512s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009159s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='' and password='' ) LIMIT 1 [ RunTime:0.000640s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:34:07+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.070461s][吞吐率：14.19req/s] [内存消耗：2,352.59kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '29',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012582s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009386s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='' and password='' ) LIMIT 1 [ RunTime:0.000668s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:34:42+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.068493s][吞吐率：14.60req/s] [内存消耗：2,353.23kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '41',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '产品汪',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012330s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008399s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='产品汪' and password='123' ) LIMIT 1 [ RunTime:0.000649s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:04+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：1.402993s][吞吐率：0.71req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.094886s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.105801s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000986s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:04+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：1.403276s][吞吐率：0.71req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.094935s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.106258s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.001057s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:04+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.082204s][吞吐率：12.16req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005284s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.016710s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.002202s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:04+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.084411s][吞吐率：11.85req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006827s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.019019s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.002589s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:04+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.084238s][吞吐率：11.87req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007879s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.019440s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.002857s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:04+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.059333s][吞吐率：16.85req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004947s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008574s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000683s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:06+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.100571s][吞吐率：9.94req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004063s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.023279s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000602s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:06+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.086565s][吞吐率：11.55req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003723s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010583s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000738s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:21+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.065001s][吞吐率：15.38req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004029s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010050s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000844s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:21+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.060161s][吞吐率：16.62req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003974s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009299s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000728s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:23:21+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.063487s][吞吐率：15.75req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003833s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009594s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000818s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:14+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.073983s][吞吐率：13.52req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012157s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010073s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000692s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:15+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.060738s][吞吐率：16.46req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003846s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010081s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000668s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:15+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.059064s][吞吐率：16.93req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003708s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008685s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000692s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:15+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.065422s][吞吐率：15.29req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003839s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009751s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000711s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:15+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.064920s][吞吐率：15.40req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003966s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010287s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000718s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:16+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.062195s][吞吐率：16.08req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003957s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008686s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000773s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:16+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.070792s][吞吐率：14.13req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003806s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009824s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000925s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:16+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.072502s][吞吐率：13.79req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003874s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009126s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000711s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:16+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.066197s][吞吐率：15.11req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004728s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008465s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000769s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:17+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.058516s][吞吐率：17.09req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004929s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.008416s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000790s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:33+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.061373s][吞吐率：16.29req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004093s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010160s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000837s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:27:49+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.059415s][吞吐率：16.83req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003792s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009815s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000685s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:28:10+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.060979s][吞吐率：16.40req/s] [内存消耗：2,352.59kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '29',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003670s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010379s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='' and password='' ) LIMIT 1 [ RunTime:0.000674s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:28:12+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.111790s][吞吐率：8.95req/s] [内存消耗：2,352.59kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '29',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006206s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.056825s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='' and password='' ) LIMIT 1 [ RunTime:0.000970s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:28:18+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.063812s][吞吐率：15.67req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003950s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009708s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000873s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:31:43+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.073880s][吞吐率：13.54req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011808s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010167s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.001077s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:33:25+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.062164s][吞吐率：16.09req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004356s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009480s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000858s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:34:07+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.068835s][吞吐率：14.53req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004004s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.009679s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000691s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:36:31+08:00 ] 192.168.98.130 192.168.98.186 POST /index.php/test/Index/app
+[ log ] 192.168.98.130/index.php/test/Index/app [运行时间：0.072685s][吞吐率：13.76req/s] [内存消耗：2,353.18kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstuby\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'Index',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json',
+  'content-type' => 'application/json; charset=utf-8',
+  'content-length' => '33',
+  'host' => '192.168.98.130',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.4.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'q',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\test\controller\Index->app[ C:\phpstuby\WWW\thinkphp\application\test\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004184s ] mysql:dbname=school;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_user` [ RunTime:0.010305s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_user` WHERE  (  username='q' and password='123' ) LIMIT 1 [ RunTime:0.000759s ]
+
+---------------------------------------------------------------
